@@ -1,0 +1,147 @@
+﻿    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+
+/*-------------- TAGS-HTML --------------*/
+
+body {
+    background: linear-gradient(#e5dbd0,#4b2f29);
+    font-family: 'Noto Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    color: #4b2f29;
+    text-align: center;
+    font-size: x-large;
+    margin: 5%;
+}
+hr {
+    color: lightgray;
+    opacity: 40%;
+    margin-top: 5%; 
+}
+
+/*-------------- MENU-HEADER --------------*/
+
+.cabecalho {
+    display: block;
+    margin: auto;
+    background-color: #de5a79;
+}
+.menu-container {
+    width: 100%;
+    margin-bottom: 2.5%;
+    background-color: #de5a79;
+}
+.menu {
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #de5a79;
+}
+.menu-item {
+    width: auto;
+    color: #4b2f29;
+}
+.menu-item:hover {
+    color: white;
+}
+
+/*-------------- CORPO-CARDS --------------*/
+
+.corpo{
+    display: block;
+    margin-bottom: 2.5%;
+}
+.card-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.card{
+    width: 20rem;
+}
+.card-image-top {
+    width: 100%;
+    border: 1px solid #4b2f29;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: -1%;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 8.5rem;
+    text-align: center;
+    background-color: azure;
+    border: 1px solid #4b2f29;
+    border-radius: 0px 0px 15px 15px;
+}
+.card-title{
+    font-size: larger;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+}
+.card-text{
+    font-size: medium;
+    font-style: oblique;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+}
+
+/*-------------- FOOTER-RODAPE --------------*/
+
+.rodape {
+    display: block;
+    background-color: none;
+    margin-top: 2%;
+}
+.rodape-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.direitos{
+    text-align: center;
+    font-size: medium;
+    margin: 2.5%;
+}
+.criadores{
+    color: white;
+    text-align: center;
+    font-size: small;
+    margin: 2.5%;
+}
+
+/*-------------- MEDIA QUERIES MOBILE --------------*/
+
+@media screen and (min-width: 450px) and (max-width: 650px){
+    
+}
+
+/*-------------- MEDIA QUERIES TABLET --------------*/
+
+@media screen and (min-width: 651px) and (max-width: 850px) {
+
+}
+
+/*-------------- MEDIA QUERIES MONITOR PEQUENO --------------*/
+
+@media screen and (min-width: 851px) and (max-width: 1280px) {
+
+}
+
+/*-------------- MEDIA QUERIES MONITOR MEDIO --------------*/
+
+@media screen and (min-width: 1281px) and (max-width: 1600px) {
+
+}
+
+/*-------------- MEDIA QUERIES MONITOR MEDIO --------------*/
+
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+
+}
