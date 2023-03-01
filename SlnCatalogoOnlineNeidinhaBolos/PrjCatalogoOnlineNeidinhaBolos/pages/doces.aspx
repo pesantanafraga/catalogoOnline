@@ -28,6 +28,14 @@
 
         <div class="corpo">
             <main class="card-container">
+                  <div class="card">
+                      <asp:Image CssClass="card-image-top" ImageUrl="imageurl" runat="server" />
+                    <div class="card-body">
+                        <asp:Label CssClass="card-title" ID="lblCardTitle" runat="server" Text="Nome do produto"></asp:Label>
+                        <asp:Label CssClass="card-text" ID="lblCardText" runat="server" Text="Descrição do produto"></asp:Label>
+                        <asp:Label CssClass="card-text" ID="lblValorProduto" runat="server" Text="Valor do produto"></asp:Label>
+                    </div>
+                </div>
             </main>
         </div>
 
