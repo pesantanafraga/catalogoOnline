@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using PrjNeidinha.Classes;
 using System.Drawing.Imaging;
 using System.Net;
-using System.Windows.Forms;
+//using System.Windows.Forms;
 
 namespace PrjNeidinha.Classes
 {

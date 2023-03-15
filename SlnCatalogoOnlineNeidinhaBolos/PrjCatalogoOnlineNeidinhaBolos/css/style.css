@@ -16,9 +16,9 @@ h1 {
     margin: 5%;
 }
 hr {
-    color: lightgray;
-    opacity: 40%;
-    margin-top: 5%; 
+    color: #F3F3F5;
+    opacity: 10%;
+    margin-top: 5%;
 }
 
 /*-------------- MENU-HEADER --------------*/
@@ -56,10 +56,13 @@ hr {
     display: block;
     margin-bottom: 2.5%;
 }*/
-.card-container{
+.card-container {
     display: flex;
     width: 100%;
+    margin-bottom:3%;
     justify-content: center;
+    animation: bounceIn;
+    animation-duration: 1s;
 }
 .card{
     width: 20rem;
@@ -96,25 +99,49 @@ hr {
 
 .rodape {
     display: block;
-    background: linear-gradient(#e5dbd0,#4b2f29);
-    background-repeat: repeat-x;
+    background-color: #e5dbd0;
 }
 body .rodape-container{
     display: flex;
-    justify-content:end;
+    justify-content:center;
     flex-direction: column;
 }
-.direitos{
+.rodape-container-atributos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #6B2915;
+    padding: 2%;
+    text-align: center;
+    color: #F3F3F5;
+}
+.rodape-container-atributos li {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.rodape-container-atributos h3{
+    font-size:larger;
+}
+.rodape-contatos, .rodape-contatos, .rodape-endereco {
+    justify-content: center;
+    flex-direction: row;
+}
+.rodape-contatos a{
+    color: #F3F3F5;
+}
+.rodape-contatos a:hover{
+    color: #de5a79;
+}
+.direitos {
     text-align: center;
     font-size: medium;
     margin: 1%;
 }
-.criadores{
+/*.criadores{
     color: white;
     text-align: center;
     font-size: small;
     margin: 1%;
-}
+}*/
 
 /*-------------- MEDIA QUERIES MOBILE --------------*/
 
@@ -126,22 +153,82 @@ body .rodape-container{
 
 @media screen and (min-width: 651px) and (max-width: 850px) {
 
+
 }
 
 /*-------------- MEDIA QUERIES MONITOR PEQUENO --------------*/
 
 @media screen and (min-width: 851px) and (max-width: 1280px) {
+    /*-------------- MENU-HEADER --------------*/
 
+    .cabecalho {
+        display: block;
+        margin: auto;
+        background-color: #de5a79;
+    }
+    .menu-container {
+        width: 100%;
+        height: 70px;
+        margin-bottom: 2%;
+        padding-top: 3%;
+        background-color: #de5a79;
+    }
+    .menu {
+        font-size: large;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 0%;
+        background-color: #de5a79;
+    }
+    .menu-item {
+        width: auto;
+        height: 50%;
+        color: #4b2f29;
+        font-size:larger;
+    }
+    .menu-item:hover {
+        color: white;
+        background-color:#de5a79;
+    }
+/*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
+    #formCardBolos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /*-------------- MEDIA QUERIES MONITOR MEDIO --------------*/
 
 @media screen and (min-width: 1281px) and (max-width: 1600px) {
 
+    /*-------------- MENU-HEADER --------------*/
+    .menu-container {
+        margin-bottom: 2%;
+        height: 60px;
+        padding-top: 1%;
+    }
+
+    /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
+    #formCardBolos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 /*-------------- MEDIA QUERIES MONITOR MEDIO --------------*/
 
 @media screen and (min-width: 1601px) and (max-width: 1920px) {
 
+    /*-------------- MENU-HEADER --------------*/
+    .menu-container {
+        margin-bottom: 2%;
+        height: 70px;
+        padding-top: 1%;
+    }
+    /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
+    #formCardBolos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }

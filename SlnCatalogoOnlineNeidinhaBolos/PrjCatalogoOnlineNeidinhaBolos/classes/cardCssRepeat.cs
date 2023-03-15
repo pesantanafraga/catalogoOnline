@@ -13,13 +13,13 @@ namespace PrjCatalogoOnlineNeidinhaBolos
 
     public static class cardCssRepeat
     {
-        public static void CardLoader(HtmlForm formulario, DataTable tabela)
+        public static void CardLoader(HtmlForm formulario/*, DataTable tabela*/)
         {
 
-            foreach (var item in Produto)
-            {
-                item.
-            }
+            //foreach (var item in Produto)
+            //{
+            //    item.
+            //}
 
             HtmlGenericControl divCard = new HtmlGenericControl("div");
 

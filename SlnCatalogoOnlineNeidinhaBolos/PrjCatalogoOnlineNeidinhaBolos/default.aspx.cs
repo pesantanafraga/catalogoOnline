@@ -14,7 +14,7 @@ namespace PrjCatalogoOnlineNeidinhaBolos
         {
 
 
-            cardCssRepeat.CardLoader(formCardBolos,DataTable);
+            cardCssRepeat.CardLoader(formCardBolos/*,DataTable*/);
         } 
     }
 }
