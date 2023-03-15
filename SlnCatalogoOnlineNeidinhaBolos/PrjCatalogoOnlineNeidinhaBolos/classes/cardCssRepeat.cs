@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -12,15 +13,23 @@ namespace PrjCatalogoOnlineNeidinhaBolos
 
     public static class cardCssRepeat
     {
-        public static void CardLoader(HtmlForm formulario)
+        public static void CardLoader(HtmlForm formulario, DataTable tabela)
         {
+
+            foreach (var item in Produto)
+            {
+                item.
+            }
+
             HtmlGenericControl divCard = new HtmlGenericControl("div");
 
             divCard.Attributes.Add("class", "card");
 
-            Image img = new Image();
+            HtmlGenericControl img = new HtmlGenericControl("img");
 
-            img.CssClass = "card-image-top";
+            //img = "card-image-top"; //atributes
+            img.Attributes.Add("src", "");
+
 
             divCard.Controls.Add(img);
 
@@ -40,7 +49,7 @@ namespace PrjCatalogoOnlineNeidinhaBolos
 
             cardDescricao.CssClass = "card-text";
             cardDescricao.ID = "lblCardText";
-            cardDescricao.Text = "Descrição do produto";
+            cardDescricao.Text = "Descrição do produto"; 
 
             Label cardValorProduto = new Label();
 

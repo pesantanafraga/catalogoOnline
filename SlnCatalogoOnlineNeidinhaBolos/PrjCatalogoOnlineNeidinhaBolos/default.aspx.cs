@@ -12,7 +12,9 @@ namespace PrjCatalogoOnlineNeidinhaBolos
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            cardCssRepeat.CardLoader(formCardBolos);
+
+
+            cardCssRepeat.CardLoader(formCardBolos,DataTable);
         } 
     }
 }

@@ -3,8 +3,7 @@
 /*-------------- TAGS-HTML --------------*/
 
 body {
-    background: linear-gradient(#e5dbd0,#4b2f29);
-    background-repeat: repeat-y;
+    background-color: #F3F3F5;
     font-family: 'Noto Sans', sans-serif;
 }
 a {
@@ -44,6 +43,7 @@ hr {
 }
 .menu-item {
     width: auto;
+    height: 50%;
     color: #4b2f29;
 }
 .menu-item:hover {
@@ -96,24 +96,24 @@ hr {
 
 .rodape {
     display: block;
-    background-color: none;
-    margin-top: 2%;
+    background: linear-gradient(#e5dbd0,#4b2f29);
+    background-repeat: repeat-x;
 }
-.rodape-container{
+body .rodape-container{
     display: flex;
-    justify-content: center;
+    justify-content:end;
     flex-direction: column;
 }
 .direitos{
     text-align: center;
     font-size: medium;
-    margin: 2.5%;
+    margin: 1%;
 }
 .criadores{
     color: white;
     text-align: center;
     font-size: small;
-    margin: 2.5%;
+    margin: 1%;
 }
 
 /*-------------- MEDIA QUERIES MOBILE --------------*/

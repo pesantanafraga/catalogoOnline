@@ -27,14 +27,14 @@
 
         <form id="formCardBolos" runat="server">
             <div class="card-container">
-                <%--   <div class="card">
+                   <div class="card">
                     <img class="card-image-top" src="images/produto.jpg" alt="Imagem do Produto" />
                     <div class="card-body">
                         <asp:Label CssClass="card-title" ID="lblCardTitle" runat="server" Text="Nome do produto"></asp:Label>
                         <asp:Label CssClass="card-text" ID="lblCardText" runat="server" Text="Descrição do produto"></asp:Label>
                         <asp:Label CssClass="card-text" ID="lblValorProduto" runat="server" Text="Valor do produto"></asp:Label>
                     </div>
-                </div>--%>
+                </div>
             </div>
         </form>
     </main>
@@ -42,8 +42,8 @@
 
     <footer class="rodape">
         <div class="rodape-container">
-            <h3 class="direitos">©2023 - NEDINHA BOLOS TODOS OS DIREITOS RESERVADOS</h3>
-            <span class="criadores">Powered by Antonio M, Rafael G, Pedro H e Pedro S.</span>
+            <strong><h3 class="direitos">&copy; NEDINHA BOLOS 2023</h3></strong>
+            <span class="criadores">Desenvolvedores: Antonio Mikael, Rafael Gomes, Pedro Henrique e Pedro Santana.</span>
         </div>
     </footer>
 </body>
