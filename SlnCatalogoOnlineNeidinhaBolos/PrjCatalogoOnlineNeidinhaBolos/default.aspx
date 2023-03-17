@@ -50,14 +50,14 @@
                     <ul>
                         <li><a href="https://www.facebook.com/neidinhabolossantos"><i class="fa-brands fa-facebook"></i>    Facebook</a></li>
                         <li><a href="https://www.instagram.com/neidinhabolos_santos/"><i class="fa-brands fa-instagram"></i>  Instagram</a></li>
-                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i>  WhatsApp</a></li>
+                        <li><a href="https://wa.link/goiom4"><i class="fa-brands fa-whatsapp"></i>  WhatsApp</a></li>
                     </ul>
                 </div>
                 <div class="rodape-endereco">
                     <h3><i class="fa-solid fa-location-dot"></i> Endereço</h3> <br />
                     <ul>
                         <li>
-                            <address>Rua 8, 2032, Morro do pacheco - Santos/SP</address>
+                            <address>Rua José Alves do Nascimento, 167 - Santos/SP</address>
                         </li>
                     </ul>
                 </div>
