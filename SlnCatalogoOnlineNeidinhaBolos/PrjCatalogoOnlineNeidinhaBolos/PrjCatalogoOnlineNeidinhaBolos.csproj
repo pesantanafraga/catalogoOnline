@@ -100,7 +100,6 @@
     <Content Include="js\menu.js" />
     <Content Include="js\scripts.js" />
     <Content Include="pages\bolos.aspx" />
-    <Content Include="pages\contato.aspx" />
     <Content Include="pages\doces.aspx" />
     <Content Include="pages\obrigado.html" />
     <Content Include="Web.config" />
@@ -120,13 +119,6 @@
     </Compile>
     <Compile Include="pages\bolos.aspx.designer.cs">
       <DependentUpon>bolos.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pages\contato.aspx.cs">
-      <DependentUpon>contato.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pages\contato.aspx.designer.cs">
-      <DependentUpon>contato.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\doces.aspx.cs">
       <DependentUpon>doces.aspx</DependentUpon>

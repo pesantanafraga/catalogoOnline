@@ -8,10 +8,9 @@ using System.Data.SqlClient;
 using System.Configuration;
 using System.Web.UI.HtmlControls;
 
-
 namespace PrjCatalogoOnlineNeidinhaBolos.pages
 {
-    public partial class doces : System.Web.UI.Page
+    public partial class contato : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -65,6 +64,7 @@ namespace PrjCatalogoOnlineNeidinhaBolos.pages
             Page.Header.Controls.Add(css);
 
             conexao.Close();
+
         }
     }
 }

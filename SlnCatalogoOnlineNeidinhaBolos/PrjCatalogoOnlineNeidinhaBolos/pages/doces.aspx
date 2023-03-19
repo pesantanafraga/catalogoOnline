@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="doces.aspx.cs" Inherits="PrjCatalogoOnlineNeidinhaBolos.pages.doces" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="doces.aspx.cs" Inherits="PrjCatalogoOnlineNeidinhaBolos.pages.contato" %>
 
 <!DOCTYPE html>
 
@@ -8,30 +8,30 @@
     <title>Neidinha Bolos - Doces</title>
     <link href="../css/reset.css" rel="stylesheet" />
     <link href="../css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-    <form id="form1" runat="server">
-
   <header id="cabecalho">
     <img class="logotipo" src="../images/logo.png" alt="Logotipo da Neidinha Bolos" />
     <nav id="nav">
       <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
         <span id="hamburger"></span>
       </button>
-      <ul id="menu" role="menu">        
+      <ul id="menu" role="menu">
         <li><a href="../default.aspx">Início</a></li>
         <li><a href="bolos.aspx">Bolos</a></li>
         <li><a href="doces.aspx">Doces</a></li>
       </ul>
     </nav>
   </header>
+
     <main>
-        <h1 class="titulo">Neidinha Bolos - Catálogo Doces</h1>
+        <h1 class="titulo">Neidinha Bolos - Catálogo Bolos</h1>
 
         <div id="formCardBolos" runat="server">
         </div>
     </main>
+    <hr />
+
     <footer class="rodape">
         <div class="rodape-container">
                 <h3 class="direitos">&copy; NEDINHA BOLOS 2023</h3>
@@ -64,6 +64,5 @@
     </footer>
     <script src="https://kit.fontawesome.com/6d057d1912.js" crossorigin="anonymous"></script>
     <script src="../js/menu.js"></script>
-    </form>
 </body>
 </html>
