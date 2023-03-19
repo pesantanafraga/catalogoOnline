@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="PrjCatalogoOnlineNeidinhaBolos._default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="bolos.aspx.cs" Inherits="PrjCatalogoOnlineNeidinhaBolos.pages.bolos" %>
 
 <!DOCTYPE html>
 
@@ -6,8 +6,8 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Neidinha Bolos - Início</title>
-    <link href="css/reset.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
@@ -18,33 +18,17 @@
         <span id="hamburger"></span>
       </button>
       <ul id="menu" role="menu">
-        <li><a href="default.aspx">Início</a></li>
-        <li><a href="pages/bolos.aspx">Bolos</a></li>
-        <li><a href="pages/doces.aspx">Doces</a></li>
+        <li><a href="../default.aspx">Início</a></li>
+        <li><a href="bolos.aspx">Bolos</a></li>
+        <li><a href="doces.aspx">Doces</a></li>
       </ul>
     </nav>
   </header>
 
     <main>
-        <img src="images/fundo.jpg" alt="Imagem de um bolo de chocolate" />
-        <div class="bem-vindo">
-            <h1>Seja Bem-vindo a Neidinha Bolos</h1>
-            <p>Não há cheiro mais gostoso do que o do bolo assando no forno. 
-                Um perfume cheio de sabor que preenche toda a sala e faz nossa barriga roncar. 
-                A arte da confeitaria possui diversas delicadezas e detalhes que a tornam única e deslumbrante. 
-                Confira as frases de bolo que separamos e fique com água na boca para comer esse doce perfeito!</p>
-        </div>
-        <h1>Objetivo</h1>
-        <div class="objetivo">
-            <img src="images/objetivos.png" alt="Alternate Text" />
-            <p>Busco oportunidade de aplicar os meus conhecimentos e experiências para dar um atendimento diferenciado. 
-               Tenho grande entusiasmo pelo atendimento ao cliente e desejo contribuir com o sucesso da imagem para minha empresa.</p>
-        </div>
-        <h1>Clientes Satisfeitos</h1>
-        <div class="clientes-satisfeitos">
-            <img src="images/cliente 1.jpg" alt="Cliente 1" />
-            <img src="images/cliente 2.jpg" alt="Cliente 2" />
-            <img src="images/cliente 3.png" alt="Cliente 3" />
+        <h1 class="titulo">Neidinha Bolos - Catálogo Bolos</h1>
+
+        <div id="formCardBolos" runat="server">
         </div>
     </main>
     <hr />
@@ -80,6 +64,6 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/6d057d1912.js" crossorigin="anonymous"></script>
-    <script src="js/menu.js"></script>
+    <script src="../js/menu.js"></script>
 </body>
 </html>
