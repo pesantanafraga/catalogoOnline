@@ -26,7 +26,7 @@
   </header>
 
     <main>
-        <img src="images/fundo.jpg" alt="Imagem de um bolo de chocolate" />
+        <img class="fundo" src="images/fundo.jpg" alt="Imagem de um bolo de chocolate" />
         <div class="bem-vindo">
             <h1>Seja Bem-vindo a Neidinha Bolos</h1>
             <p>Não há cheiro mais gostoso do que o do bolo assando no forno. 

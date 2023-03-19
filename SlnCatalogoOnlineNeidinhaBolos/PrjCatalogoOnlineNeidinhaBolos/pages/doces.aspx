@@ -63,7 +63,7 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/6d057d1912.js" crossorigin="anonymous"></script>
-
+    <script src="../js/menu.js"></script>
     </form>
 </body>
 </html>
