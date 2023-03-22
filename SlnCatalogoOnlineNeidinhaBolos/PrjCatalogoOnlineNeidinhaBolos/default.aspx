@@ -29,7 +29,6 @@
     <main>
         <img class="fundo" src="images/fundo.jpg" alt="Imagem de um bolo de chocolate" />
         <div class="bem-vindo">
-            <img class="logotipo-inicio" src="/images/quemsomos.png" alt="Alternate Text" />
             <h1>Seja Bem-vindo a Neidinha Bolos</h1>
             <p>Não há cheiro mais gostoso do que o do bolo assando no forno. 
                 Um perfume cheio de sabor que preenche toda a sala e faz nossa barriga roncar. 

@@ -1,59 +1,59 @@
 ﻿    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap');
 
-/*-------------- TAGS-HTML --------------*/
-/*#de5a79*/
-body {
-    background: linear-gradient(rgba(110, 56, 30), rgba(229, 219, 208)), url(../images/fundo.jpg);
-    font-family: 'Noto Sans', sans-serif;
-}
-a {
-    text-decoration: none;
-}
-h1 {
-    color: #4b2f29;
-    text-align: center;
-    font-size: x-large;
-    margin: 5%;
-}
-hr {
-    color: #F3F3F5;
-    opacity: 10%;
-    margin-top: 5%;
-}
+    /*-------------- TAGS-HTML --------------*/
+        /*#de5a79*/
+    body {
+        background: linear-gradient(rgba(110, 56, 30), rgba(229, 219, 208)), url(../images/fundo.jpg);
+        font-family: 'Noto Sans', sans-serif;
+    }
+    a {
+        text-decoration: none;
+    }
+    h1 {
+        color: #4b2f29;
+        text-align: center;
+        font-size: x-large;
+        margin: 5%;
+    }
+    hr {
+        color: #F3F3F5;
+        opacity: 10%;
+        margin-top: 5%;
+    }
 
 
-/*-------------- MENU-HEADER --------------*/
+    /*-------------- MENU-HEADER --------------*/
 
-.logotipo {
-    width: 25%;
-    margin-left: 10%;
-}
-#cabecalho {
-    box-sizing: border-box;
-    height: 70px;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: none;
-}
-#menu {
-    display: flex;
-    list-style: none;
-    gap: 0.5rem;
-}
-#menu a {
-    display: block;
-    padding: 0.5rem;
-    color:white;
-}
-#menu a:hover {
-    color:#e5dbd0;
-}
-#btn-mobile {
-    display: none;
-}
-@media (max-width: 600px) {
+    .logotipo {
+        width: 25%;
+        margin-left: 10%;
+    }
+    #cabecalho {
+        box-sizing: border-box;
+        height: 70px;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: none;
+    }
+    #menu {
+        display: flex;
+        list-style: none;
+        gap: 0.5rem;
+    }
+    #menu a {
+        display: block;
+        padding: 0.5rem;
+        color:white;
+    }
+    #menu a:hover {
+        color:#e5dbd0;
+    }
+    #btn-mobile {
+        display: none;
+    }
+@media screen and (max-width: 720px) {
 
     /*-------------- MENU HAMBURGUER --------------*/
     #menu {
@@ -69,13 +69,11 @@ hr {
         visibility: hidden;
         overflow-y: hidden;
     }
-
     #nav.active #menu {
         height: 18vh;
         visibility: visible;
         overflow-y: auto;
     }
-
     #menu a {
         padding: 1rem 0;
         margin: 0 1rem;
@@ -89,7 +87,7 @@ hr {
         background: none;
         cursor: pointer;
         gap: 0.5rem;
-        color:white;
+        color: white;
     }
     #hamburger {
         border-top: 2px solid;
@@ -152,8 +150,10 @@ hr {
     }
     .clientes-satisfeitos img{
         width:100%;
-        border-radius:50px;
-        border-left: 5px solid #6E381E;
+        border-top-left-radius:30px;
+        border-top-right-radius:30px;
+        border-bottom: 5px solid #6E381E;
+        box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
     }
     .clientes-satisfeitos{
         display:grid;
@@ -164,60 +164,55 @@ hr {
 
     /*-------------- CORPO-CARDS --------------*/
 
-    .card-container img {
-        border-radius:10px;
-    }
+        /*ESTILIZANDO O CARD*/
 
     .card-container {
         display: flex;
         flex-direction:column;
-        width: 50%;
+        width: 40%;
         height:400px;
-        margin-left:25%;
+        margin-left:30%;
         margin-bottom: 3%;
+
         justify-content: space-around;
         text-align:center;
         animation: bounceIn;
         animation-duration: 1s;
-        border-bottom: 5px solid white;
+        background-color:white;
+        border-bottom: 3px solid #6E381E;
         border-radius:10px;
+        box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
     }
-
-    .card {
-        width: 20rem;
-    }
-
-    .card-image-top {
+    .card-container img {
         width: 100%;
-        border: 1px solid #4b2f29;
-        border-radius: 15px 15px 0px 0px;
-        margin-bottom: -1%;
+        margin-top:-5vh;
+        border-top-left-radius:10px;
+        border-top-right-radius:10px;
+        position:center;
     }
-
-    .card-body {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 8.5rem;
-        text-align: center;
-        background-color: azure;
-        border: 1px solid #4b2f29;
-        border-radius: 0px 0px 15px 15px;
-    }
-
-    .card-title {
-        font-size: larger;
-        margin-top: 2%;
-        margin-bottom: 1.5%;
-    }
-
-    .card-text {
+    .card-container h3 {
         font-size: medium;
-        font-style: oblique;
-        margin-top: 2%;
-        margin-bottom: 1.5%;
+        margin-top:-10vh;
+        padding: 2%;
+        background-color:#6E381E;
+        color: white;
     }
-
+    .card-container p {
+        font-size:small;
+        text-align:left;
+        font-weight: bold;
+        padding-left:2%;
+        border-left:2px solid #6E381E;
+        color:#6E381E;
+    }
+    .card-container span {
+        font-size:larger;
+        font-weight: bold;
+        color:#6E381E;
+        margin:0 6vh;
+        padding-bottom: 2%;
+        border-bottom: 3px solid #6E381E;
+    }
     /*-------------- FOOTER-RODAPE --------------*/
 
     body .rodape {
@@ -237,7 +232,7 @@ hr {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         background: none;
-        padding: 10%;
+        padding: 5%;
         text-align: center;
         color: #6E381E;
     }
@@ -257,9 +252,9 @@ hr {
     }
     .rodape-contatos ul li, .rodape-contatos ul li, .rodape-endereco ul li{
         font-size: small;
+        padding: 1%;
     }
-
-    .rodape-contatos a {
+    .rodape-contatos a{
         color: #6E381E;
     }
 
@@ -270,87 +265,116 @@ hr {
     .direitos {
         text-align: center;
         font-size: medium;
-        margin: 1%;
+        padding: 0.5%;
+        background-color:#6E381E;
+        color: white;
     }
-        /*-------------- MEDIA QUERIES MONITOR PEQUENO --------------*/
+    /*-------------- MEDIA QUERIES MONITOR PEQUENO --------------*/
 
-@media screen and (min-width: 851px) and (max-width: 851) {
+@media screen and (min-width: 720px) and (max-width: 1000px) {
 
     /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
     #formCardBolos {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
+                /*ESTILIZANDO O CARD*/
     .card-container {
         width: 60%;
         height: 400px;
-        margin-left: 25%;
+        margin-left:25%;
+        margin-bottom: 3%;
+    }
+    .card-container img {
+        width: 100%;
+        margin-top:-5vh;
+    }
+    .card-container h3 {
+        font-size: medium;
+        margin-top: -10vh;
+        padding: 2%;
+    }
+    .card-container p {
+        font-size:small;
+        padding-left:2%;
+    }
+    .card-container span {
+        font-size:larger;
     }
 }
-    /*-------------- MEDIA QUERIES MONITOR PEQUENO --------------*/
-
-    @media screen and (min-width: 851px) and (max-width: 1000px) {
-
-
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    /*-------------- MENU-HEADER --------------*/
+    .logotipo {
+        width: 15%;
+        margin-left: 10%;
+    }
         /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
-        #formCardBolos {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
-        .card-container {
-            width: 60%;
-            height: 400px;
-            margin-left: 25%;
-        }
+    #formCardBolos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    @media screen and (min-width: 1000px) and (max-width: 1281px) {
-        /*-------------- MENU-HEADER --------------*/
-        .logotipo {
-            width: 15%;
-            margin-left: 10%;
-        }
+                        /*ESTILIZANDO O CARD*/
+    .card-container {
+        width: 70%;
+        height: 400px;
+        margin-left:25%;
+        margin-bottom: 3%;
     }
+    .card-container img {
+        width: 100%;
+        margin-top:-5vh;
+    }
+    .card-container h3 {
+        font-size: medium;
+        margin-top: -10vh;
+        padding: 2%;
+    }
+    .card-container p {
+        font-size:small;
+        padding-left:2%;
+    }
+    .card-container span {
+        font-size:larger;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    /*-------------- MENU-HEADER --------------*/
+    .logotipo {
+        width: 15%;
+        margin-left: 10%;
+    }
+        /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
+    #formCardBolos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+                        /*ESTILIZANDO O CARD*/
+    .card-container {
+        width: 70%;
+        height: 400px;
+        margin-left:25%;
+        margin-bottom: 3%;
+    }
+    .card-container img {
+        width: 100%;
+        margin-top:-5vh;
+    }
+    .card-container h3 {
+        font-size: medium;
+        margin-top: -8vh;
+        padding: 2%;
+    }
+    .card-container p {
+        font-size:small;
+        padding-left:2%;
+    }
+    .card-container span {
+        font-size:larger;
+    }
+}
     /*-------------- MEDIA QUERIES MONITOR MEDIO --------------*/
 
-    @media screen and (min-width: 1281px) and (max-width: 1500px) {
-
-        /*-------------- MENU-HEADER --------------*/
-        .logotipo {
-            width:10%;
-            margin-left:10%;
-        }
-        #menu a {
-            padding: 1rem 0;
-            margin: 0 2rem;
-            font-size:large;
-        }
-
-        /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
-        #formCardBolos {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-        .card-container {
-            width: 60%;
-            height: 400px;
-            margin-left: 25%;
-        }
-                /*-------------- FOOTER-RODAPE --------------*/
-        .rodape-container-atributos {
-            padding: 2%;
-        }
-        .rodape-container-atributos h3 {
-            font-size: large;
-        }
-        .rodape-contatos ul li, .rodape-contatos ul li, .rodape-endereco ul li {
-            font-size: medium;
-        }
-    }
-
-    /*-------------- MEDIA QUERIES MONITOR MEDIO --------------*/
-
-    @media screen and (min-width: 1501px) and (max-width: 1920px) {
+    @media screen and (min-width: 1400px) and (max-width: 1980px) {
         /*-------------- MENU-HEADER --------------*/
         .logotipo {
             width: 10%;
@@ -371,15 +395,17 @@ hr {
             padding: 5%;
         }
         /*-------------- CORPO-CARDS --------------*/
-
+        main h1{
+            margin: 1% 0;
+        }
         main img {
             width: 100%;
             height: 50%;
         }
-
         .card-container {
-            width: 70%;
+            width: 80%;
             height: 450px;
+            margin: -5% 0;
         }
         /*-------------- FOOTER-RODAPE --------------*/
         .rodape-container-atributos {
