@@ -309,3 +309,271 @@ C:\Users\santa\Documents\ProjetosGit\catalogoOnline\SlnCatalogoOnlineNeidinhaBol
 C:\Users\santa\Documents\ProjetosGit\catalogoOnline\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.csproj.CopyComplete
 C:\Users\santa\Documents\ProjetosGit\catalogoOnline\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.dll
 C:\Users\santa\Documents\ProjetosGit\catalogoOnline\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.pdb
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\PrjCatalogoOnlineNeidinhaBolos.dll.config
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\PrjCatalogoOnlineNeidinhaBolos.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\PrjCatalogoOnlineNeidinhaBolos.pdb
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csc.exe
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csc.exe.config
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csc.rsp
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csi.exe
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csi.exe.config
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csi.rsp
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.AppContext.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Console.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.IO.Compression.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Net.Http.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Net.Sockets.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.ValueTuple.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Xml.XPath.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\vbc.exe
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\vbc.exe.config
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\vbc.rsp
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\VBCSCompiler.exe
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.AccessControl.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.Permissions.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.Principal.Windows.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Configuration.ConfigurationManager.xml
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.AccessControl.xml
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.Permissions.xml
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.Principal.Windows.xml
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.csproj.AssemblyReference.cache
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.csproj.CoreCompileInputs.cache
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.csproj.CopyComplete
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.dll
+C:\Users\antonio.mssouza1\source\repos\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.pdb
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\PrjCatalogoOnlineNeidinhaBolos.dll.config
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\PrjCatalogoOnlineNeidinhaBolos.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\PrjCatalogoOnlineNeidinhaBolos.pdb
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csc.exe
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csc.exe.config
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csc.rsp
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csi.exe
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csi.exe.config
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csi.rsp
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.AppContext.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Console.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.IO.Compression.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Net.Http.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Net.Sockets.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.ValueTuple.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Xml.XPath.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\vbc.exe
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\vbc.exe.config
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\vbc.rsp
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\VBCSCompiler.exe
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.AccessControl.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.Permissions.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.Principal.Windows.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Configuration.ConfigurationManager.xml
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.AccessControl.xml
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.Permissions.xml
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.Principal.Windows.xml
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.csproj.AssemblyReference.cache
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.csproj.CoreCompileInputs.cache
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.csproj.CopyComplete
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.dll
+C:\Users\arley.saugusto\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.pdb
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\PrjCatalogoOnlineNeidinhaBolos.dll.config
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\PrjCatalogoOnlineNeidinhaBolos.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\PrjCatalogoOnlineNeidinhaBolos.pdb
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csc.exe
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csc.exe.config
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csc.rsp
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csi.exe
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csi.exe.config
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csi.rsp
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.AppContext.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Console.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.IO.Compression.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Net.Http.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Net.Sockets.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.ValueTuple.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Xml.XPath.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\vbc.exe
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\vbc.exe.config
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\vbc.rsp
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\VBCSCompiler.exe
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.AccessControl.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.Permissions.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.Principal.Windows.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Configuration.ConfigurationManager.xml
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.AccessControl.xml
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.Permissions.xml
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.Principal.Windows.xml
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.csproj.AssemblyReference.cache
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.csproj.CoreCompileInputs.cache
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.csproj.CopyComplete
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.dll
+C:\Users\antonio.mssouza1\Downloads\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.pdb
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\PrjCatalogoOnlineNeidinhaBolos.dll.config
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\PrjCatalogoOnlineNeidinhaBolos.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\PrjCatalogoOnlineNeidinhaBolos.pdb
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csc.exe
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csc.exe.config
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csc.rsp
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csi.exe
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csi.exe.config
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\csi.rsp
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.Managed.Core.targets
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.AppContext.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Collections.Immutable.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Console.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Globalization.Calendars.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.IO.Compression.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.IO.FileSystem.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Net.Http.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Net.Sockets.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Reflection.Metadata.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.ValueTuple.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Xml.XmlDocument.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Xml.XPath.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\vbc.exe
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\vbc.exe.config
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\vbc.rsp
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\VBCSCompiler.exe
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\roslyn\VBCSCompiler.exe.config
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Configuration.ConfigurationManager.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.AccessControl.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.Permissions.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.Principal.Windows.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Configuration.ConfigurationManager.xml
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.AccessControl.xml
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.Permissions.xml
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\System.Security.Principal.Windows.xml
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.csproj.AssemblyReference.cache
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.csproj.CoreCompileInputs.cache
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.csproj.CopyComplete
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.dll
+F:\NEIDINHA BOLOS PROJETO\catalogoOnline-mainAj\catalogoOnline-main\SlnCatalogoOnlineNeidinhaBolos\PrjCatalogoOnlineNeidinhaBolos\obj\Debug\PrjCatalogoOnlineNeidinhaBolos.pdb

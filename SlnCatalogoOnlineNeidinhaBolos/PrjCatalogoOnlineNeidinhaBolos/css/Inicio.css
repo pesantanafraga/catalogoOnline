@@ -1,0 +1,305 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+
+/*-------------- TAGS-HTML --------------*/
+/*#de5a79*/
+body {
+    background: linear-gradient(rgba(110, 56, 30), rgba(229, 219, 208)), url(../images/fundo.jpg);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #4b2f29;
+    text-align: center;
+    font-size: x-large;
+    margin: 5%;
+}
+
+hr {
+    color: #F3F3F5;
+    opacity: 10%;
+    margin-top: 5%;
+}
+/*-------------- MENU-HEADER --------------*/
+.logotipo {
+    width: 25%;
+    margin-left: 10%;
+}
+
+#cabecalho {
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: none;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+}
+
+    #menu a {
+        display: block;
+        padding: 0.5rem;
+        color: white;
+    }
+
+        #menu a:hover {
+            color: #e5dbd0;
+        }
+
+#btn-mobile {
+    display: none;
+}
+/*-------------- MAIN --------------*/
+.fundo {
+    width: 100%;
+    opacity: 0.7;
+}
+/*-------------- FOOTER-RODAPE --------------*/
+body .rodape {
+    display: block;
+    margin-bottom: -10%;
+    background-color: #e5dbd0;
+}
+
+body .rodape-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-top: 2px solid #6E381E;
+}
+
+.rodape-container-atributos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: none;
+    padding: 5%;
+    text-align: center;
+    color: #6E381E;
+}
+
+    .rodape-container-atributos ul li a {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .rodape-container-atributos h3 {
+        font-size: medium;
+    }
+
+.rodape-contatos, .rodape-contatos, .rodape-endereco {
+    justify-content: center;
+    flex-direction: row;
+}
+
+    .rodape-contatos ul li, .rodape-contatos ul li, .rodape-endereco ul li {
+        font-size: small;
+        padding: 1%;
+    }
+
+    .rodape-contatos a {
+        color: #6E381E;
+    }
+
+        .rodape-contatos a:hover {
+            color: #de5a79;
+        }
+
+.direitos {
+    text-align: center;
+    font-size: medium;
+    padding: 0.5%;
+    background-color: #6E381E;
+    color: white;
+}
+
+
+@media screen and (max-width: 720px) {
+
+    /*-------------- MENU HAMBURGUER --------------*/
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #6E381E;
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+        #menu a {
+            padding: 1rem 0;
+            margin: 0 1rem;
+            border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+        }
+
+    #nav.active #menu {
+        height: 18vh;
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #btn-mobile {
+        display: flex;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 0.5rem;
+        color: white;
+    }
+
+    #hamburger {
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+        #hamburger::after, #hamburger::before {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 2px;
+            background: currentColor;
+            margin-top: 5px;
+            transition: 0.3s;
+            position: relative;
+        }
+
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+
+        #nav.active #hamburger::before {
+            transform: rotate(135deg);
+        }
+
+        #nav.active #hamburger::after {
+            transform: rotate(-135deg);
+            top: -7px;
+        }
+    /*-------------- ESTILIZANDO O CORPO DA PAGINA INICIO --------------*/
+
+    main {
+        background-position: center center;
+        background-size: cover;
+        background-position-y: 0px;
+        background-repeat: no-repeat;
+        padding: 10px 0;
+    }
+
+        main h1 {
+            color: white;
+        }
+
+        main p {
+            margin: 5%;
+        }
+
+    .objetivo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 15%;
+        grid-gap: 5px;
+        margin: -10%;
+    }
+
+        .objetivo img {
+            width: 80%;
+        }
+
+    .clientes-satisfeitos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .clientes-satisfeitos img {
+            width: 30%;
+            height: 220px;
+            margin: 5% 0;
+            box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+        }
+}
+/*-------------- MEDIA QUERIES MONITOR PEQUENO --------------*/
+
+@media screen and (min-width: 720px) and (max-width: 1000px) {
+
+    /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
+    .clientes-satisfeitos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        padding: 5%;
+    }
+
+        .clientes-satisfeitos img {
+            width: 50%;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom: 5px solid #6E381E;
+            box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+        }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    /*-------------- MENU-HEADER --------------*/
+    .logotipo {
+        width: 15%;
+        margin-left: 10%;
+    }
+    /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
+    #formCardBolos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    /*-------------- MENU-HEADER --------------*/
+    .logotipo {
+        width: 15%;
+        margin-left: 10%;
+    }
+}
+/*-------------- MEDIA QUERIES MONITOR MEDIO --------------*/
+
+@media screen and (min-width: 1400px) and (max-width: 1980px) {
+    /*-------------- MENU-HEADER --------------*/
+    .logotipo {
+        width: 10%;
+        margin-left: 10%;
+    }
+
+    #menu a {
+        padding: 2rem 0;
+        margin: 0 5rem;
+        margin-left: 5%;
+        font-size: large;
+    }
+
+    /*-------------- FOOTER-RODAPE --------------*/
+    .rodape-container-atributos {
+        padding: 2%;
+    }
+
+        .rodape-container-atributos h3 {
+            font-size: large;
+        }
+
+    .rodape-contatos ul li, .rodape-contatos ul li, .rodape-endereco ul li {
+        font-size: medium;
+    }
+}

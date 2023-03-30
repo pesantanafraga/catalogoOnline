@@ -7,6 +7,8 @@ using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using System.Configuration;
 using System.Web.UI.HtmlControls;
+using System.Web.Services;
+using System.Data;
 
 namespace PrjCatalogoOnlineNeidinhaBolos.pages
 {
@@ -14,40 +16,53 @@ namespace PrjCatalogoOnlineNeidinhaBolos.pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            SqlConnection conexao = new SqlConnection(ConfigurationManager.ConnectionStrings["PrjCatalogoOnlineNeidinhaBolos.Properties.Settings.strC"].ToString());
-            conexao.Open(); string sql = "SELECT * FROM Produto WHERE tipo='BOLO'";
-            SqlCommand command = new SqlCommand(sql, conexao); using (SqlDataReader reader = command.ExecuteReader())
+            if (!IsPostBack)
             {
-                int i = 0;
+                // Adiciona o arquivo CSS externo
+                LiteralControl css = new LiteralControl();
+                css.Text = "<link rel='stylesheet' href='../css/style.css'>";
+                Page.Header.Controls.Add(css);
+            }
+        }
+
+        [WebMethod]
+        public static string CarregarProdutos(string buscaProduto) // recebe uma string de bolo
+        {
+            string html = "";
+            SqlConnection conexao = new SqlConnection(ConfigurationManager.ConnectionStrings["PrjCatalogoOnlineNeidinhaBolos.Properties.Settings.strC"].ToString());
+
+            var cmd = new SqlCommand();
+            cmd.CommandText = "buscaDados";
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Connection = conexao;
+            cmd.Parameters.AddWithValue("@nome", buscaProduto);
+            SqlDataReader reader;
+
+            conexao.Open();
+            //string sql = "SELECT * FROM Produto WHERE tipo='BOLO'"; // troca pela procedure
+            //SqlCommand command = new SqlCommand(sql, conexao);
+            reader = cmd.ExecuteReader();
+            
                 while (reader.Read())
                 {
                     string nome = reader.GetString(1);
                     decimal preco = reader.GetDecimal(3);
                     string descricao = reader.GetString(2);
-                    string caminhoImagem = "https://" + reader.GetString(4).Substring(30);                      // Cria um novo elemento HTML para cada item do banco de dados   
+                    string caminhoImagem = "https://" + reader.GetString(4).Substring(30);
 
-                    HtmlGenericControl cardContainer = new HtmlGenericControl("div");
-                    cardContainer.Attributes.Add("class", "card-container"); // Adiciona a classe CSS
-                    // Adiciona os elementos filhos ao elemento divCard aqui                     HtmlGenericControl img = new HtmlGenericControl("img");
-                    HtmlGenericControl img = new HtmlGenericControl("img");
-                    img.Attributes["src"] = caminhoImagem;
-                    cardContainer.Controls.Add(img);
-                    HtmlGenericControl h3 = new HtmlGenericControl("h3"); // Usa a tag correta para o título
-
-                    h3.InnerText = nome;
-                    cardContainer.Controls.Add(h3);
-                    HtmlGenericControl p = new HtmlGenericControl("p"); // Usa a tag correta para o texto
-                    p.InnerText = descricao;
-                    cardContainer.Controls.Add(p);
-                    HtmlGenericControl span = new HtmlGenericControl("span"); // Usa a tag correta para o preço
-                    span.InnerText = "R$ " + preco.ToString("0.00");
-                    cardContainer.Controls.Add(span);                     // Adiciona o elemento divCard ao container 
-                    formCardBolos.Controls.Add(cardContainer); i++;
+                    html += "<div class='card-container'>";
+                    html += "<img src='" + caminhoImagem + "' />";
+                    html += "<h3>" + nome + "</h3>";
+                    html += "<p>" + descricao + "</p>";
+                    html += "<span>R$ " + preco.ToString("0.00") + "</span>";
+                    html += "</div>";
                 }
-            }             // Adiciona o arquivo CSS externo
-            LiteralControl css = new LiteralControl();
-            css.Text = "<link rel='stylesheet' href='../css/style.css'>";
-            Page.Header.Controls.Add(css); conexao.Close();
+            
+            conexao.Close();
+            return html;
         }
+
+
+
     }
 }

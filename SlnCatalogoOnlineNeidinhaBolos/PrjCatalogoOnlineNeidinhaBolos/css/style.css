@@ -1,243 +1,308 @@
-﻿    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap');
 
-    /*-------------- TAGS-HTML --------------*/
-        /*#de5a79*/
-    body {
-        background: linear-gradient(rgba(110, 56, 30), rgba(229, 219, 208)), url(../images/fundo.jpg);
-        font-family: 'Noto Sans', sans-serif;
-    }
-    a {
-        text-decoration: none;
-    }
-    h1 {
-        color: #4b2f29;
-        text-align: center;
-        font-size: x-large;
-        margin: 5%;
-    }
-    hr {
-        color: #F3F3F5;
-        opacity: 10%;
-        margin-top: 5%;
-    }
+/*-------------- TAGS-HTML --------------*/
+/*#de5a79*/
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(#6e381e, #e5dbd0);
+    background-repeat: no-repeat;
+    font-family: 'Noto Sans', sans-serif;
+}
 
+a {
+    text-decoration: none;
+}
 
-    /*-------------- MENU-HEADER --------------*/
+h1 {
+    color: #4b2f29;
+    text-align: center;
+    font-size: x-large;
+    margin: 5%;
+}
 
-    .logotipo {
-        width: 25%;
-        margin-left: 10%;
-    }
-    #cabecalho {
-        box-sizing: border-box;
-        height: 70px;
-        padding: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: none;
-    }
-    #menu {
-        display: flex;
-        list-style: none;
-        gap: 0.5rem;
-    }
+hr {
+    color: #F3F3F5;
+    opacity: 10%;
+    margin-top: 5%;
+}
+/*-------------- MENU-HEADER --------------*/
+.logotipo {
+    width: 25%;
+    margin-left: 10%;
+}
+
+#cabecalho {
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: none;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 0.1rem;
+}
+
     #menu a {
         display: block;
         padding: 0.5rem;
-        color:white;
-    }
-    #menu a:hover {
-        color:#e5dbd0;
-    }
-    #btn-mobile {
-        display: none;
-    }
-@media screen and (max-width: 720px) {
-
-    /*-------------- MENU HAMBURGUER --------------*/
-    #menu {
-        display: block;
-        position: absolute;
-        width: 100%;
-        top: 70px;
-        right: 0px;
-        background: #6E381E;
-        transition: 0.6s;
-        z-index: 1000;
-        height: 0px;
-        visibility: hidden;
-        overflow-y: hidden;
-    }
-    #nav.active #menu {
-        height: 18vh;
-        visibility: visible;
-        overflow-y: auto;
-    }
-    #menu a {
-        padding: 1rem 0;
-        margin: 0 1rem;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
-    }
-    #btn-mobile {
-        display: flex;
-        padding: 0.5rem 1rem;
-        font-size: 1rem;
-        border: none;
-        background: none;
-        cursor: pointer;
-        gap: 0.5rem;
         color: white;
     }
-    #hamburger {
-        border-top: 2px solid;
-        width: 20px;
-    }
-    #hamburger::after, #hamburger::before {
-        content: '';
-        display: block;
-        width: 20px;
-        height: 2px;
-        background: currentColor;
-        margin-top: 5px;
-        transition: 0.3s;
-        position: relative;
-    }
-    #nav.active #hamburger {
-        border-top-color: transparent;
-    }
-    #nav.active #hamburger::before {
-        transform: rotate(135deg);
-    }
-    #nav.active #hamburger::after {
-        transform: rotate(-135deg);
-        top: -7px;
-    }
+
+        #menu a:hover {
+            color: #e5dbd0;
+        }
+
+#btn-mobile {
+    display: none;
 }
+/*-------------- CORPO MAIN --------------*/
+#mensagem {
+    display:none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: x-large;
+    Font-weight: bold;
+    text-align: center;
+}
+main {
+    flex: 1 1 0;
+}
+    @media screen and (max-width: 720px) {
+        /*-------------- MENU HAMBURGUER --------------*/
+        #menu {
+            display: block;
+            position: absolute;
+            width: 100%;
+            top: 70px;
+            right: 0px;
+            background: #6E381E;
+            transition: 0.6s;
+            z-index: 1000;
+            height: 0px;
+            visibility: hidden;
+            overflow-y: hidden;
+        }
+
+        #nav.active #menu {
+            height: 18vh;
+            visibility: visible;
+            overflow-y: auto;
+        }
+
+        #menu a {
+            padding: 1rem 0;
+            margin: 0 1rem;
+            border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+        }
+
+        #btn-mobile {
+            display: flex;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            border: none;
+            background: none;
+            cursor: pointer;
+            gap: 0.5rem;
+            color: white;
+        }
+
+        #hamburger {
+            border-top: 2px solid;
+            width: 20px;
+        }
+
+            #hamburger::after, #hamburger::before {
+                content: '';
+                display: block;
+                width: 20px;
+                height: 2px;
+                background: currentColor;
+                margin-top: 5px;
+                transition: 0.3s;
+                position: relative;
+            }
+
+        #nav.active #hamburger {
+            border-top-color: transparent;
+        }
+
+            #nav.active #hamburger::before {
+                transform: rotate(135deg);
+            }
+
+            #nav.active #hamburger::after {
+                transform: rotate(-135deg);
+                top: -7px;
+            }
+    }
+/*-------------- CAIXA DE BUSCAR --------------*/
+.div-buscar {
+    background: #e5dbd0;
+    height: 20px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.botao-buscar {
+    color: #6e381e;
+    float: right;
+    width: 20px;
+    height: 20px;
+    padding: -3%;
+    border-radius: 50%;
+    background: #e5dbd0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputDeBusca {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #6e381e;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 20px;
+    width: 240px;
+}
+.div-buscar:hover > .botao-buscar {
+    background: #6e381e;
+    color: #e5dbd0;
+    padding: 2%;
+    margin: -2%;
+}
+
     /*-------------- CORPO MAIN --------------*/
-    .fundo{
-       width:100%;
-       opacity:0.7;
-    }
-    .logotipo-inicio{
-        width:40%;
-        top:10%;
-        left:30%;
-        position:absolute;
-    }
-    main{
-        background-position: center center;
-        background-size: cover;
-        background-position-y: 0px;
-        background-repeat: no-repeat;
-        padding:10px 0;
-    }
-    main h1{
-       color:white; 
-    }
-    main p{
-        margin:5%;
-    }
-    .objetivo{
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        padding:15%;
-        grid-gap: 5px;
-        margin:-10%;
-    }
-    .objetivo img{
-        width:80%;
-    }
-    .clientes-satisfeitos img{
-        width:100%;
-        border-top-left-radius:30px;
-        border-top-right-radius:30px;
-        border-bottom: 5px solid #6E381E;
-        box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
-    }
-    .clientes-satisfeitos{
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 20px;
-        padding:5%;
+.fundo {
+    width: 100%;
+    opacity: 0.7;
+}
+
+.logotipo-inicio {
+    width: 40%;
+    top: 10%;
+    left: 30%;
+    position: absolute;
+}
+.header-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    padding: 10px 0;
+}
+
+    main h1 {
+        color: white;
     }
 
-    /*-------------- CORPO-CARDS --------------*/
-
-        /*ESTILIZANDO O CARD*/
-
-    .card-container {
-        display: flex;
-        flex-direction:column;
-        width: 40%;
-        height:400px;
-        margin-left:30%;
-        margin-bottom: 3%;
-
-        justify-content: space-around;
-        text-align:center;
-        animation: bounceIn;
-        animation-duration: 1s;
-        background-color:white;
-        border-bottom: 3px solid #6E381E;
-        border-radius:10px;
-        box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+    main p {
+        margin: 5%;
     }
+
+/*-------------- CORPO-CARDS --------------*/
+
+/*ESTILIZANDO O CARD*/
+
+.formCardBolos{
+    padding: 5%;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 400px;
+    margin-left: 30%;
+    margin-top: 10%;
+    justify-content: space-around;
+    text-align: center;
+    background-color: white;
+    border-bottom: 3px solid #6E381E;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
     .card-container img {
         width: 100%;
-        margin-top:-5vh;
-        border-top-left-radius:10px;
-        border-top-right-radius:10px;
-        position:center;
+        margin-top: -5vh;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        position: center;
     }
+
     .card-container h3 {
         font-size: medium;
-        margin-top:-10vh;
+        margin-top: -8vh;
         padding: 2%;
-        background-color:#6E381E;
+        background-color: #6E381E;
         color: white;
     }
+
     .card-container p {
-        font-size:small;
-        text-align:left;
+        font-size: small;
+        text-align: left;
         font-weight: bold;
-        padding-left:2%;
-        border-left:2px solid #6E381E;
-        color:#6E381E;
-    }
-    .card-container span {
-        font-size:larger;
-        font-weight: bold;
-        color:#6E381E;
-        margin:0 6vh;
-        padding-bottom: 2%;
-        border-bottom: 3px solid #6E381E;
-    }
-    /*-------------- FOOTER-RODAPE --------------*/
-
-    body .rodape {
-        display: block;
-        margin-bottom:-10%;
-        background-color: #e5dbd0;
-    }
-
-    body .rodape-container {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        border-top: 2px solid #6E381E;
-    }
-
-    .rodape-container-atributos {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        background: none;
-        padding: 5%;
-        text-align: center;
+        padding-left: 2%;
+        border-left: 2px solid #6E381E;
         color: #6E381E;
     }
 
-    .rodape-container-atributos ul li a{
+    .card-container span {
+        font-size: larger;
+        font-weight: bold;
+        color: #6E381E;
+        margin: 0 6vh;
+        padding: 3%;
+        border: 3px solid #6E381E;
+        border-radius: 50%;
+    }
+/*-------------- FOOTER-RODAPE --------------*/
+
+body .rodape {
+    display: block;
+    margin-bottom: -10%;
+    background-color: #e5dbd0;
+}
+
+body .rodape-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-top: 2px solid #6E381E;
+}
+
+.rodape-container-atributos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: none;
+    padding: 5%;
+    text-align: center;
+    color: #6E381E;
+}
+
+    .rodape-container-atributos ul li a {
         margin-top: 2%;
         margin-bottom: 2%;
     }
@@ -246,175 +311,285 @@
         font-size: medium;
     }
 
-    .rodape-contatos, .rodape-contatos, .rodape-endereco {
-        justify-content: center;
-        flex-direction: row;
-    }
-    .rodape-contatos ul li, .rodape-contatos ul li, .rodape-endereco ul li{
+.rodape-contatos, .rodape-contatos, .rodape-endereco {
+    justify-content: center;
+    flex-direction: row;
+}
+
+    .rodape-contatos ul li, .rodape-contatos ul li, .rodape-endereco ul li {
         font-size: small;
         padding: 1%;
     }
-    .rodape-contatos a{
+
+    .rodape-contatos a {
         color: #6E381E;
     }
 
-    .rodape-contatos a:hover {
-        color: #de5a79;
-    }
+        .rodape-contatos a:hover {
+            color: #de5a79;
+        }
 
-    .direitos {
-        text-align: center;
-        font-size: medium;
-        padding: 0.5%;
-        background-color:#6E381E;
-        color: white;
-    }
-    /*-------------- MEDIA QUERIES MONITOR PEQUENO --------------*/
+.direitos {
+    text-align: center;
+    font-size: medium;
+    padding: 0.5%;
+    background-color: #6E381E;
+    color: white;
+}
+/*-------------- MEDIA QUERIES MONITOR PEQUENO --------------*/
 
 @media screen and (min-width: 720px) and (max-width: 1000px) {
+    /*-------------- CAIXA DE BUSCAR --------------*/
+    #inputDeBusca {
+        width: 0px;
+    }
+    .div-buscar:hover > #inputDeBusca {
+        width: 240px;
+        padding: 0 6px;
+    }
 
+    .div-buscar:hover > .botao-buscar {
+        background: #6e381e;
+        color: #e5dbd0;
+        padding: 2%;
+        margin: -2%;
+    }
+    /*-------------- CORPO MAIN --------------*/
+    .header-main {
+        flex-direction: row;
+    }
+    .div-buscar {
+        margin-left: -3%;
+    }
     /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
     #formCardBolos {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-                /*ESTILIZANDO O CARD*/
+    /*ESTILIZANDO O CARD*/
     .card-container {
         width: 60%;
         height: 400px;
-        margin-left:25%;
+        margin-left: 25%;
         margin-bottom: 3%;
     }
-    .card-container img {
-        width: 100%;
-        margin-top:-5vh;
-    }
-    .card-container h3 {
-        font-size: medium;
-        margin-top: -10vh;
-        padding: 2%;
-    }
-    .card-container p {
-        font-size:small;
-        padding-left:2%;
-    }
-    .card-container span {
-        font-size:larger;
-    }
+
+        .card-container img {
+            width: 100%;
+            margin-top: -5vh;
+        }
+
+        .card-container h3 {
+            font-size: medium;
+            margin-top: -7vh;
+            padding: 2%;
+        }
+
+        .card-container p {
+            font-size: small;
+            padding-left: 2%;
+        }
+
+        .card-container span {
+            font-size: larger;
+        }
 }
+
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
     /*-------------- MENU-HEADER --------------*/
     .logotipo {
         width: 15%;
         margin-left: 10%;
     }
-        /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
+    /*-------------- CAIXA DE BUSCAR --------------*/
+    #inputDeBusca {
+        width: 0px;
+    }
+
+    .div-buscar:hover > #inputDeBusca {
+        width: 240px;
+        padding: 0 6px;
+    }
+
+    .div-buscar:hover > .botao-buscar {
+        background: #6e381e;
+        color: #e5dbd0;
+        padding: 2%;
+        margin: -2%;
+    }
+    /*-------------- CORPO MAIN --------------*/
+    .header-main {
+        flex-direction: row;
+    }
+    .div-buscar {
+        margin-left: -3%;
+    }
+    /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
     #formCardBolos {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-                        /*ESTILIZANDO O CARD*/
+    /*ESTILIZANDO O CARD*/
     .card-container {
         width: 70%;
         height: 400px;
-        margin-left:25%;
+        margin-left: 25%;
         margin-bottom: 3%;
     }
-    .card-container img {
-        width: 100%;
-        margin-top:-5vh;
-    }
-    .card-container h3 {
-        font-size: medium;
-        margin-top: -10vh;
-        padding: 2%;
-    }
-    .card-container p {
-        font-size:small;
-        padding-left:2%;
-    }
-    .card-container span {
-        font-size:larger;
-    }
+
+        .card-container img {
+            width: 100%;
+            margin-top: -5vh;
+        }
+
+        .card-container h3 {
+            font-size: medium;
+            margin-top: -6vh;
+            padding: 2%;
+        }
+
+        .card-container p {
+            font-size: small;
+            padding-left: 2%;
+        }
+
+        .card-container span {
+            font-size: larger;
+        }
 }
+
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
     /*-------------- MENU-HEADER --------------*/
     .logotipo {
         width: 15%;
         margin-left: 10%;
     }
-        /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
+    /*-------------- CAIXA DE BUSCAR --------------*/
+    #inputDeBusca {
+        width: 0px;
+    }
+
+    .div-buscar:hover > #inputDeBusca {
+        width: 240px;
+        padding: 0 6px;
+    }
+
+    .div-buscar:hover > .botao-buscar {
+        background: #6e381e;
+        color: #e5dbd0;
+        padding: 2%;
+        margin: -2%;
+    }
+    /*-------------- CORPO MAIN --------------*/
+    .header-main {
+        flex-direction: row;
+    }
+    .div-buscar {
+        margin-left: -3%;
+    }
+    /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
     #formCardBolos {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-                        /*ESTILIZANDO O CARD*/
+    /*ESTILIZANDO O CARD*/
     .card-container {
         width: 70%;
         height: 400px;
-        margin-left:25%;
+        margin-left: 25%;
         margin-bottom: 3%;
     }
-    .card-container img {
-        width: 100%;
-        margin-top:-5vh;
-    }
-    .card-container h3 {
-        font-size: medium;
-        margin-top: -8vh;
-        padding: 2%;
-    }
-    .card-container p {
-        font-size:small;
-        padding-left:2%;
-    }
-    .card-container span {
-        font-size:larger;
-    }
-}
-    /*-------------- MEDIA QUERIES MONITOR MEDIO --------------*/
 
-    @media screen and (min-width: 1400px) and (max-width: 1980px) {
-        /*-------------- MENU-HEADER --------------*/
-        .logotipo {
-            width: 10%;
-            margin-left: 10%;
-        }
-
-        #menu a {
-            padding: 2rem 0;
-            margin: 0 5rem;
-            margin-left:5%;
-            font-size: large;
-        }
-
-        /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
-        #formCardBolos {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            padding: 5%;
-        }
-        /*-------------- CORPO-CARDS --------------*/
-        main h1{
-            margin: 1% 0;
-        }
-        main img {
+        .card-container img {
             width: 100%;
-            height: 50%;
+            margin-top: -5vh;
         }
-        .card-container {
-            width: 80%;
-            height: 450px;
-            margin: -5% 0;
-        }
-        /*-------------- FOOTER-RODAPE --------------*/
-        .rodape-container-atributos {
+
+        .card-container h3 {
+            font-size: medium;
+            margin-top: -5vh;
             padding: 2%;
         }
+
+        .card-container p {
+            font-size: small;
+            padding-left: 2%;
+        }
+
+        .card-container span {
+            font-size: larger;
+        }
+}
+/*-------------- MEDIA QUERIES MONITOR MEDIO --------------*/
+
+@media screen and (min-width: 1400px) and (max-width: 1980px) {
+    /*-------------- MENU-HEADER --------------*/
+    .logotipo {
+        width: 10%;
+        margin-left: 10%;
+    }
+
+    #menu a {
+        padding: 2rem 0;
+        margin: 0 5rem;
+        margin-left: 5%;
+        font-size: large;
+    }
+    /*-------------- CAIXA DE BUSCAR --------------*/
+    #inputDeBusca {
+        width: 0px;
+    }
+
+    .div-buscar:hover > #inputDeBusca {
+        width: 240px;
+        padding: 0 6px;
+    }
+
+    .div-buscar:hover > .botao-buscar {
+        background: #6e381e;
+        color: #e5dbd0;
+        padding: 2%;
+        margin: -2%;
+    }
+    /*-------------- CORPO MAIN --------------*/
+    .header-main {
+        flex-direction: row;
+    }
+    .div-buscar {
+        margin-left: 1%;
+    }
+
+    /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
+    #formCardBolos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 5%;
+    }
+    /*-------------- CORPO-CARDS --------------*/
+    main h1 {
+        margin: 1% 0;
+    }
+
+    main img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .card-container {
+        width: 80%;
+        height: 450px;
+        margin: -5% 0;
+    }
+    /*-------------- FOOTER-RODAPE --------------*/
+    .rodape-container-atributos {
+        padding: 2%;
+    }
+
         .rodape-container-atributos h3 {
             font-size: large;
         }
-        .rodape-contatos ul li, .rodape-contatos ul li, .rodape-endereco ul li {
-            font-size: medium;
-        }
+
+    .rodape-contatos ul li, .rodape-contatos ul li, .rodape-endereco ul li {
+        font-size: medium;
     }
+}

@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Neidinha Bolos - Início</title>
     <link href="css/reset.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/inicio.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
@@ -21,7 +21,6 @@
         <li><a href="default.aspx">Início</a></li>
         <li><a href="pages/bolos.aspx">Bolos</a></li>
         <li><a href="pages/doces.aspx">Doces</a></li>
-<%--          COMENTARIO TESTE--%>
       </ul>
     </nav>
   </header>
@@ -29,6 +28,7 @@
     <main>
         <img class="fundo" src="images/fundo.jpg" alt="Imagem de um bolo de chocolate" />
         <div class="bem-vindo">
+            <img class="logotipo-inicio" src="/images/quemsomos.png" alt="Alternate Text" />
             <h1>Seja Bem-vindo a Neidinha Bolos</h1>
             <p>Não há cheiro mais gostoso do que o do bolo assando no forno. 
                 Um perfume cheio de sabor que preenche toda a sala e faz nossa barriga roncar. 
