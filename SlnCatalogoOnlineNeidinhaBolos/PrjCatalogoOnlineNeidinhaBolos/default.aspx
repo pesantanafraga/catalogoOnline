@@ -26,30 +26,51 @@
   </header>
 
     <main>
-        <img class="fundo" src="images/fundo.jpg" alt="Imagem de um bolo de chocolate" />
+
         <div class="bem-vindo">
-            <img class="logotipo-inicio" src="/images/quemsomos.png" alt="Alternate Text" />
-            <h1>Seja Bem-vindo a Neidinha Bolos</h1>
-            <p>Não há cheiro mais gostoso do que o do bolo assando no forno. 
-                Um perfume cheio de sabor que preenche toda a sala e faz nossa barriga roncar. 
-                A arte da confeitaria possui diversas delicadezas e detalhes que a tornam única e deslumbrante. 
-                Confira as frases de bolo que separamos e fique com água na boca para comer esse doce perfeito!</p>
+            <h1>Seja muito bem-vindo(a) à Neidinha Bolos!</h1>
+        <img class="fundo" src="images/doces-gif.gif" alt="Um Gif de pequena duração mostrando como a Neidinha faz os doces" />
+            <h1>Objetivo</h1>
+            <p>Na nossa empresa, nosso principal objetivo é levar para nossos clientes a experiência única de saborear bolos e doces de alta qualidade, 
+                feitos com ingredientes selecionados e muito carinho em cada etapa da produção. Combinando técnica, criatividade e paixão pela confeitaria, 
+                estamos sempre em busca de novas receitas e sabores, para oferecer uma ampla variedade de opções e atender a todos os gostos e ocasiões. <br /> <br />
+                Aqui você encontra uma seleção de bolos artesanais deliciosos,feitos com ingredientes de alta qualidade
+               e muito carinho. Nossos bolos e doces são preparados diariamente com receitas exclusivas, 
+               criadas para surpreender e satisfazer os paladares mais exigentes.</p>
         </div>
-        <h1>Objetivo</h1>
-        <div class="objetivo">
-            <img src="images/objetivos.png" alt="Alternate Text" />
-            <p>Busco oportunidade de aplicar os meus conhecimentos e experiências para dar um atendimento diferenciado. 
-               Tenho grande entusiasmo pelo atendimento ao cliente e desejo contribuir com o sucesso da imagem para minha empresa.</p>
+        <div class="bolos">
+            <img src="images/bolo-chocolate.jpg" alt="Imagem de um bolo de Chocolate" />
+            <div class="bolos-escritura">
+                <h1>Bolos</h1>
+                <p>Temos uma variedade deliciosa de bolos para todos os gostos e ocasiões. 
+                   Desde bolos clássicos até opções mais ousadas e criativas, aqui você encontra o 
+                   bolo perfeito para satisfazer seu paladar e impressionar seus convidados.    <br /> <br />
+                    <a href="pages/bolos.aspx">Veja nossos bolos: <i class="fa-solid fa-arrow-up-right-from-square"></i></a> </p>
+                
+            </div>
+        </div>
+        <div class="doces">
+            <img src="images/brigadeiro-beijinho.jpg" alt="Imagem de brigadeiros e beijinhos de forma misturada em uma bandeja" />
+            <div class="doces-escritura">
+                <h1>Doces</h1>
+                <p>Aqui você encontra uma variedade de doces deliciosos para satisfazer seu paladar. 
+                   Desde chocolates finos até balas coloridas e gomas de todos os sabores, nossos doces são 
+                   feitos com ingredientes de alta qualidade e muito amor. 
+                   Temos opções para todos os gostos e ocasiões.    <br /> <br />    
+                   <a href="pages/doces.aspx">Veja nossos doces: <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </p>
+                
+            </div>        
         </div>
         <h1>Clientes Satisfeitos</h1>
         <div class="clientes-satisfeitos">
+            <div class="clientes-satisfeitos-img">
             <img src="images/cliente 1.jpg" alt="Cliente 1" />
             <img src="images/cliente 2.jpg" alt="Cliente 2" />
             <img src="images/cliente 3.png" alt="Cliente 3" />
+            </div>
         </div>
     </main>
-    <hr />
-
     <footer class="rodape">
         <div class="rodape-container">
                 <h3 class="direitos">&copy; NEDINHA BOLOS 2023</h3>

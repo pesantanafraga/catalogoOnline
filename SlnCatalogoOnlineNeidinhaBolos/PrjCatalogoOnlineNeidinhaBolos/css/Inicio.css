@@ -3,26 +3,18 @@
 /*-------------- TAGS-HTML --------------*/
 /*#de5a79*/
 body {
-    background: linear-gradient(rgba(110, 56, 30), rgba(229, 219, 208)), url(../images/fundo.jpg);
+    display: flex;
+    flex-direction: column;
     font-family: 'Noto Sans', sans-serif;
 }
-
+body p{
+    padding-left: 3%;
+}
 a {
     text-decoration: none;
+    font-size:small;
 }
 
-h1 {
-    color: #4b2f29;
-    text-align: center;
-    font-size: x-large;
-    margin: 5%;
-}
-
-hr {
-    color: #F3F3F5;
-    opacity: 10%;
-    margin-top: 5%;
-}
 /*-------------- MENU-HEADER --------------*/
 .logotipo {
     width: 25%;
@@ -36,7 +28,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: none;
+    background-color: #6E381E;
 }
 
 #menu {
@@ -61,7 +53,103 @@ hr {
 /*-------------- MAIN --------------*/
 .fundo {
     width: 100%;
-    opacity: 0.7;
+    margin: -2% 0;
+}
+main {
+    background-color: #e5dbd0;
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    padding: 10px 0;
+    background-repeat: no-repeat;
+}
+main h1 {
+    color: #6E381E;
+    text-align: center;
+    font-size: xx-large;
+    margin: 8%;
+}
+    main p {
+        margin: 5%;
+    }
+/*-------------- SESSÃO BEM VINDO --------------*/
+.bem-vindo {
+    color: #6E381E;
+}
+    .bem-vindo img {
+        border-radius: 1vh;
+        box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+    }
+    .bem-vindo p {
+        text-align: left;
+        border-left: 2px solid #6E381E;
+    }
+/*-------------- SESSÃO BOLOS --------------*/
+.bolos {
+    background-color: #6E381E;
+    color: #e5dbd0;
+}
+    .bolos img {
+        border-radius: 1vh;
+        box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+    }
+    .bolos h1 {
+        color: #e5dbd0;
+    }
+    .bolos p {
+        text-align: left;
+        border-left: 2px solid #e5dbd0;
+    }
+    .bolos a {
+        color: #e5dbd0;
+        text-align: center;
+        margin-bottom: 2%;
+        font-size: large;
+    }
+        .bolos a:hover {
+            color: #de5a79;
+        }
+/*-------------- SESSÃO DOCES --------------*/
+.doces {
+    color: #6E381E;
+}
+
+    .doces img {
+        border-radius: 1vh;
+        box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+    }
+
+    .doces h1 {
+        color: #6E381E;
+    }
+
+    .doces p {
+        text-align: left;
+        border-left: 2px solid #6E381E;
+    }
+
+    .doces a {
+        color: #6E381E;
+        text-align: right;
+        margin-bottom: 2%;
+        font-size: large;
+    }
+
+        .doces a:hover {
+            color: #de5a79;
+        }
+/*-------------- SESSÃO CLIENTES SATISFEITOS --------------*/
+.clientes-satisfeitos {
+    background-color: #6E381E;
+    color: #e5dbd0;
+}
+    .clientes-satisfeitos h1 {
+        color: #e5dbd0;
+    }
+
+.clientes-satisfeitos-img img {
+    border-radius: 1vh;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
 }
 /*-------------- FOOTER-RODAPE --------------*/
 body .rodape {
@@ -191,47 +279,53 @@ body .rodape-container {
             top: -7px;
         }
     /*-------------- ESTILIZANDO O CORPO DA PAGINA INICIO --------------*/
-
-    main {
-        background-position: center center;
-        background-size: cover;
-        background-position-y: 0px;
-        background-repeat: no-repeat;
-        padding: 10px 0;
-    }
-
-        main h1 {
-            color: white;
-        }
-
-        main p {
-            margin: 5%;
-        }
-
-    .objetivo {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 15%;
-        grid-gap: 5px;
-        margin: -10%;
-    }
-
-        .objetivo img {
-            width: 80%;
-        }
-
-    .clientes-satisfeitos {
+    /*-------------- SESSÃO BEM VINDO --------------*/
+    .bem-vindo {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
-        .clientes-satisfeitos img {
-            width: 30%;
-            height: 220px;
-            margin: 5% 0;
-            box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+        .bem-vindo img {
+            width: 80%;
+            margin-top: 3vh;
         }
+    /*-------------- SESSÃO BOLOS --------------*/
+    .bolos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .bolos img {
+            width: 80%;
+            margin-top: 3vh;
+        }
+    /*-------------- SESSÃO DOCES --------------*/
+    .doces {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .doces img {
+            width: 80%;
+            margin-top: 3vh;
+        }
+    /*-------------- SESSÃO CLIENTES SATISFEITOS --------------*/
+    .clientes-satisfeitos-img{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .clientes-satisfeitos-img img{
+        width: 40%;
+        height: 30vh;
+        margin: 2vh 0.5vh;
+    }
 }
 /*-------------- MEDIA QUERIES MONITOR PEQUENO --------------*/
 

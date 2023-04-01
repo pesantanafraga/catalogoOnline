@@ -89,13 +89,17 @@
     <Content Include="css\reset.css" />
     <Content Include="css\style.css" />
     <Content Include="default.aspx" />
+    <Content Include="images\bolo-chocolate.jpg" />
+    <Content Include="images\brigadeiro-beijinho.jpg" />
     <Content Include="images\cliente 1.jpg" />
     <Content Include="images\cliente 2.jpg" />
     <Content Include="images\cliente 3.png" />
+    <Content Include="images\doces-gif.gif" />
     <Content Include="images\fundo.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\logotipoSite.png" />
     <Content Include="images\objetivos.png" />
+    <Content Include="images\pao-de-mel.jpg" />
     <Content Include="images\produto.jpg" />
     <Content Include="images\quemsomos.png" />
     <Content Include="js\menu.js" />
