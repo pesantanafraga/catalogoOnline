@@ -24,13 +24,19 @@
     </nav>
   </header>
 
-    <main>
+   <main>
+        <div class="header-main">
         <h1 class="titulo">Neidinha Bolos - Catálogo Bolos</h1>
-
-        <div id="formCardBolos" runat="server">
+        <div class="div-buscar">
+            <input type="text"  value="" id="inputDeBusca"/>
+            <a href="#" class="botao-buscar"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        </div>
+        <span id="mensagem"></span>
+        <div id="formCardBolos" runat="server"> <%--TUDO QUE VEM DO BANCO DE PRODUTOS, APARECE NESSE DIV--%>
+             
         </div>
     </main>
-    <hr />
 
     <footer class="rodape">
         <div class="rodape-container">
@@ -63,6 +69,29 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/6d057d1912.js" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../js/menu.js"></script>
+    <script>
+        setInterval(function () {
+           
+            var valueInput2 = "{buscaProduto:'" + $("#inputDeBusca").val() + "'}";
+            
+            $.ajax({
+                type: "POST",
+                url: "doces.aspx/CarregarProdutos",
+                data: valueInput2,
+
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    $("#formCardBolos").html(response.d);
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.responseText);
+                }
+            });
+        }, 1000);
+
+   </script>
 </body>
 </html>

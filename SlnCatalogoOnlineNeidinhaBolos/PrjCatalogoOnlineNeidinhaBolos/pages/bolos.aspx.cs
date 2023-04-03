@@ -42,7 +42,7 @@ namespace PrjCatalogoOnlineNeidinhaBolos.pages
             //string sql = "SELECT * FROM Produto WHERE tipo='BOLO'"; // troca pela procedure
             //SqlCommand command = new SqlCommand(sql, conexao);
             reader = cmd.ExecuteReader();
-            
+            int contador = 0;   
                 while (reader.Read())
                 {
                     string nome = reader.GetString(1);
@@ -56,8 +56,12 @@ namespace PrjCatalogoOnlineNeidinhaBolos.pages
                     html += "<p>" + descricao + "</p>";
                     html += "<span>R$ " + preco.ToString("0.00") + "</span>";
                     html += "</div>";
+                contador++;
                 }
-            
+            if (contador < 1)
+            {
+                html += "<h2>" + "item não encontrado" + "</h2>";
+            }
             conexao.Close();
             return html;
         }

@@ -2,6 +2,10 @@
 
 /*-------------- TAGS-HTML --------------*/
 /*#de5a79*/
+
+#saidaProduto{
+    color:blue;
+}
 body {
     display: flex;
     flex-direction: column;
