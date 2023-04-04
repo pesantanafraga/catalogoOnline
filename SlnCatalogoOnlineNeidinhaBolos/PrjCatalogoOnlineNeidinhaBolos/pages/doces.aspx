@@ -37,7 +37,7 @@
              
         </div>
     </main>
-
+    <hr />
     <footer class="rodape">
         <div class="rodape-container">
                 <h3 class="direitos">&copy; NEDINHA BOLOS 2023</h3>

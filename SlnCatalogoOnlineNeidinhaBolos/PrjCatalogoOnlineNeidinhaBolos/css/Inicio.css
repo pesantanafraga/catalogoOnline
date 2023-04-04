@@ -346,6 +346,53 @@ body .rodape-container {
             border-bottom: 5px solid #6E381E;
             box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
         }
+    .bem-vindo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .bem-vindo img {
+            width: 80%;
+            margin-top: 3vh;
+        }
+    /*-------------- SESSÃO BOLOS --------------*/
+    .bolos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .bolos img {
+            width: 80%;
+            margin-top: 3vh;
+        }
+    /*-------------- SESSÃO DOCES --------------*/
+    .doces {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .doces img {
+            width: 80%;
+            margin-top: 3vh;
+        }
+    /*-------------- SESSÃO CLIENTES SATISFEITOS --------------*/
+    .clientes-satisfeitos-img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+        .clientes-satisfeitos-img img {
+            width: 100%;
+            height: 30vh;
+            margin: 2vh 3vh;
+        }
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
