@@ -61,6 +61,7 @@ main {
     background-size: cover;
     background-position-y: 0px;
     padding: 10px 0;
+    margin: -11px 0;
     background-repeat: no-repeat;
 }
 main h1 {
@@ -93,6 +94,9 @@ main h1 {
         border-radius: 1vh;
         box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
     }
+    .bolos-escrituras{
+        display:flex; 
+    }
     .bolos h1 {
         color: #e5dbd0;
     }
@@ -100,9 +104,15 @@ main h1 {
         text-align: left;
         border-left: 2px solid #e5dbd0;
     }
+    .bolos span {
+        display: block;
+        text-align:center;
+        font-size: xx-large;
+    }
     .bolos a {
+        display: block;
+        text-align:center;
         color: #e5dbd0;
-        text-align: center;
         margin-bottom: 2%;
         font-size: large;
     }
@@ -283,8 +293,6 @@ body .rodape-container {
     .bem-vindo {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
         .bem-vindo img {
@@ -296,9 +304,7 @@ body .rodape-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
-
         .bolos img {
             width: 80%;
             margin-top: 3vh;
@@ -320,32 +326,17 @@ body .rodape-container {
         display: flex;
         flex-direction: row;
         align-items: center;
+        margin:0 1px;
     }
-    .clientes-satisfeitos-img img{
-        width: 40%;
-        height: 30vh;
-        margin: 2vh 0.5vh;
-    }
+        .clientes-satisfeitos-img img {
+            width: 40%;
+            height: 250px;
+            margin: 1vh 0.5vh;
+        }
 }
 /*-------------- MEDIA QUERIES MONITOR PEQUENO --------------*/
 
 @media screen and (min-width: 720px) and (max-width: 1000px) {
-
-    /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
-    .clientes-satisfeitos {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 20px;
-        padding: 5%;
-    }
-
-        .clientes-satisfeitos img {
-            width: 50%;
-            border-top-left-radius: 30px;
-            border-top-right-radius: 30px;
-            border-bottom: 5px solid #6E381E;
-            box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
-        }
     .bem-vindo {
         display: flex;
         flex-direction: column;
@@ -389,9 +380,9 @@ body .rodape-container {
     }
 
         .clientes-satisfeitos-img img {
-            width: 100%;
-            height: 30vh;
-            margin: 2vh 3vh;
+            width: 90%;
+            height: 300px;
+            margin: 1vh 0.5vh;
         }
 }
 
@@ -401,11 +392,52 @@ body .rodape-container {
         width: 15%;
         margin-left: 10%;
     }
-    /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
-    #formCardBolos {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+    .bem-vindo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
+
+        .bem-vindo img {
+            width: 80%;
+            margin-top: 3vh;
+        }
+    /*-------------- SESSÃO BOLOS --------------*/
+    .bolos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+        .bolos img {
+            width: 80%;
+            margin-top: 3vh;
+        }
+    /*-------------- SESSÃO DOCES --------------*/
+    .doces {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .doces img {
+            width: 80%;
+            margin-top: 3vh;
+        }
+    /*-------------- SESSÃO CLIENTES SATISFEITOS --------------*/
+    .clientes-satisfeitos-img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+        .clientes-satisfeitos-img img {
+            width: 90%;
+            height: 300px;
+            margin: 1vh 0.5vh;
+        }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {

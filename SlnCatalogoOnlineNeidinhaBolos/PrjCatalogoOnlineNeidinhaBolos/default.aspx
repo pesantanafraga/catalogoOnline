@@ -26,25 +26,20 @@
   </header>
 
     <main>
-
+        <h1>Seja muito bem-vindo(a) à Neidinha Bolos!</h1>
         <div class="bem-vindo">
-            <h1>Seja muito bem-vindo(a) à Neidinha Bolos!</h1>
+            
         <img class="fundo" src="images/doces-gif.gif" alt="Um Gif de pequena duração mostrando como a Neidinha faz os doces" />
-            <h1>Objetivo</h1>
-            <p>Na nossa empresa, nosso principal objetivo é levar para nossos clientes a experiência única de saborear bolos e doces de alta qualidade, 
-                feitos com ingredientes selecionados e muito carinho em cada etapa da produção. Combinando técnica, criatividade e paixão pela confeitaria, 
-                estamos sempre em busca de novas receitas e sabores, para oferecer uma ampla variedade de opções e atender a todos os gostos e ocasiões. <br /> <br />
-                Aqui você encontra uma seleção de bolos artesanais deliciosos,feitos com ingredientes de alta qualidade
-               e muito carinho. Nossos bolos e doces são preparados diariamente com receitas exclusivas, 
-               criadas para surpreender e satisfazer os paladares mais exigentes.</p>
+            <div class="bolos-escritura">
+
+            </div>
         </div>
         <div class="bolos">
             <img src="images/bolo-chocolate.jpg" alt="Imagem de um bolo de Chocolate" />
             <div class="bolos-escritura">
-                <h1>Bolos</h1>
-                <p>Temos uma variedade deliciosa de bolos para todos os gostos e ocasiões. 
-                   Desde bolos clássicos até opções mais ousadas e criativas, aqui você encontra o 
-                   bolo perfeito para satisfazer seu paladar e impressionar seus convidados.    <br /> <br />
+                <h1>Bolo de Chocolate</h1>
+                <p>Delicioso bolo de chocolate, Delicioso bolo de chocolate, Delicioso bolo de chocolate.</p> <span>R$ 60,00</span>
+                <br /> <br />
                     <a href="pages/bolos.aspx">Veja nossos bolos: <i class="fa-solid fa-arrow-up-right-from-square"></i></a> </p>
                 
             </div>
