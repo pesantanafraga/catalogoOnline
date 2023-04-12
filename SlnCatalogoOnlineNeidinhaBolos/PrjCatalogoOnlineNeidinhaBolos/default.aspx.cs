@@ -34,7 +34,7 @@ namespace PrjCatalogoOnlineNeidinhaBolos
 
 
 
-                HtmlGenericControl cardContainer = new HtmlGenericControl("div");
+                HtmlGenericControl cardContainer = new HtmlGenericControl("li");
                 cardContainer.Attributes.Add("class", "mySlides fade");
                 HtmlGenericControl img = new HtmlGenericControl("img");
                 img.Attributes["src"] = caminhoImagem;

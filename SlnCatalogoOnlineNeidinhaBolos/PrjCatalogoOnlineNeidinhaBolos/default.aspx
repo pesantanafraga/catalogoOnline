@@ -27,21 +27,21 @@
     </header>
 
     <main>
-        <h1>Seja muito bem-vindo(a) à Neidinha Bolos!</h1>
-
-        <div class="slideshow-container" id="divDestaque" runat="server"> <%--DIV QUE TEM OUTRA DIV SENDO CRIADA NO C# E DENTRO DESSA DIV TEM AS TAG IMG--%>
-
-        </div>
-
-        <div style="text-align: center">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
-
-        <%--   //fim carrousel--%>
         <div class="bem-vindo">
 
+        <div class="carrossel" >
+            <%--DIV QUE TEM OUTRA DIV SENDO CRIADA NO C# E DENTRO DESSA DIV TEM AS TAG IMG--%>
+            <ul id="divDestaque" runat="server" class="slider">
+<%--            <li class="mySlides fade">
+                    <img src="#" alt="Alternate Text" /></li>
+                <li class="mySlides fade">
+                    <img src="#" alt="Alternate Text" /></li>
+                <li class="mySlides fade">
+                    <img src="#" alt="Alternate Text" /></li>--%>
+            </ul>
+                    <h1>Seja muito bem-vindo(a) à Neidinha Bolos!</h1>
+        </div>
+        <%--   //fim carrousel--%>
             <%--            <img class="fundo" src="images/doces-gif.gif" alt="Um Gif de pequena duração mostrando como a Neidinha faz os doces" />--%>
             <div class="bolos-escritura">
             </div>
@@ -51,31 +51,23 @@
             <div class="bolos-escritura">
                 <h1>Bolo de Chocolate</h1>
                 <p>Delicioso bolo de chocolate, Delicioso bolo de chocolate, Delicioso bolo de chocolate.</p>
-                <span>R$ 60,00</span>
-                <br />
-                <br />
+                <span>R$ 96,99</span>
                 <a href="pages/bolos.aspx">Veja nossos bolos: <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
-                
+                <br />
             </div>
         </div>
         <div class="doces">
             <img src="images/brigadeiro-beijinho.jpg" alt="Imagem de brigadeiros e beijinhos de forma misturada em uma bandeja" />
             <div class="doces-escritura">
                 <h1>Doces</h1>
-                <p>
-                    Aqui você encontra uma variedade de doces deliciosos para satisfazer seu paladar. 
-                   Desde chocolates finos até balas coloridas e gomas de todos os sabores, nossos doces são 
-                   feitos com ingredientes de alta qualidade e muito amor. 
-                   Temos opções para todos os gostos e ocasiões.   
-                    <br />
-                    <br />
+                <p>Delicioso bolo de chocolate, Delicioso bolo de chocolate, Delicioso bolo de chocolate.</p>
+                <span>R$ 69,99</span>
                     <a href="pages/doces.aspx">Veja nossos doces: <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </p>
-
+            <br />
             </div>
         </div>
-        <h1>Clientes Satisfeitos</h1>
         <div class="clientes-satisfeitos">
+                    <h1>Clientes Satisfeitos</h1>
             <div class="clientes-satisfeitos-img">
                 <img src="images/cliente 1.jpg" alt="Cliente 1" />
                 <img src="images/cliente 2.jpg" alt="Cliente 2" />
