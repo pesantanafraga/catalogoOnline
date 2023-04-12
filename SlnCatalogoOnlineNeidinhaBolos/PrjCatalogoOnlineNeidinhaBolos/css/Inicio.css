@@ -2,6 +2,62 @@
 
 /*-------------- TAGS-HTML --------------*/
 /*#de5a79*/
+
+/** {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}*/
+.mySlides fades img {
+    border: 200px solid red;
+}
+
+/*img {
+    vertical-align: middle;
+}*/
+ 
+/* Slideshow container */
+/*.mySlides fade img {
+     display: inline-block;
+}*/
+ 
+/* The dots/bullets/indicators */
+/*.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+ 
+
+.active {
+    background-color: #717171;
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to{
+        opacity: 1
+    }
+}
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 body {
     display: flex;
     flex-direction: column;
@@ -68,7 +124,7 @@ main h1 {
     color: #6E381E;
     text-align: center;
     font-size: xx-large;
-    margin: 8%;
+    margin: 5%;
 }
     main p {
         margin: 5%;
@@ -446,6 +502,54 @@ body .rodape-container {
         width: 15%;
         margin-left: 10%;
     }
+
+    .bem-vindo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .bem-vindo img {
+            width: 80%;
+            margin-top: 3vh;
+        }
+    /*-------------- SESSÃO BOLOS --------------*/
+    .bolos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .bolos img {
+            width: 80%;
+            margin-top: 3vh;
+        }
+    /*-------------- SESSÃO DOCES --------------*/
+    .doces {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .doces img {
+            width: 80%;
+            margin-top: 3vh;
+        }
+    /*-------------- SESSÃO CLIENTES SATISFEITOS --------------*/
+    .clientes-satisfeitos-img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+        .clientes-satisfeitos-img img {
+            width: 90%;
+            height: 450px;
+            margin: 1vh 0.5vh;
+        }
 }
 /*-------------- MEDIA QUERIES MONITOR MEDIO --------------*/
 
@@ -462,7 +566,50 @@ body .rodape-container {
         margin-left: 5%;
         font-size: large;
     }
+    /*-------------- SESSÃO BEM VINDO --------------*/
+    .bem-vindo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .bem-vindo
+    /*-------------- SESSÃO BOLOS --------------*/
+    .bolos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 
+        .bolos img {
+            width: 80%;
+            margin-top: 3vh;
+        }
+    /*-------------- SESSÃO DOCES --------------*/
+    .doces {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .doces img {
+            width: 80%;
+            margin-top: 3vh;
+        }
+    /*-------------- SESSÃO CLIENTES SATISFEITOS --------------*/
+    .clientes-satisfeitos-img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+        .clientes-satisfeitos-img img {
+            width: 70%;
+            height: 650px;
+            margin: 1vh 0.5vh;
+        }
     /*-------------- FOOTER-RODAPE --------------*/
     .rodape-container-atributos {
         padding: 2%;

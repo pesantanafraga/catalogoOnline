@@ -61,7 +61,7 @@ namespace PrjCatalogoOnlineNeidinhaBolos.pages
             }
             if (contador < 1)
             {
-                html += "<h1 id = 'saidaProdutos'>" + "item não encontrado" + "</h1>";
+                html += "<h1 id = 'saidaProdutos'>" + "Produto não encontrado!" + "</h1>";
             }
             conexao.Close();
             return html;

@@ -45,10 +45,10 @@ namespace PrjCatalogoOnlineNeidinhaBolos.pages
             int contador = 0;   
                 while (reader.Read())
                 {
-                    string nome = reader.GetString(1);
-                    decimal preco = reader.GetDecimal(3);
-                    string descricao = reader.GetString(2);
-                    string caminhoImagem = "https://" + reader.GetString(4).Substring(30);
+                    string nome = reader.GetString(2);
+                    decimal preco = reader.GetDecimal(4);
+                    string descricao = reader.GetString(3);
+                    string caminhoImagem = "https://" + reader.GetString(7).Substring(30);
 
                     html += "<div class='card-container'>";
                     html += "<img src='" + caminhoImagem + "' />";
@@ -60,7 +60,7 @@ namespace PrjCatalogoOnlineNeidinhaBolos.pages
                 }
             if (contador < 1)
             {
-                html += "<h2>" + "item não encontrado" + "</h2>";
+                html += "<h2>" + "Produto não encontrado!" + "</h2>";
             }
             conexao.Close();
             return html;
