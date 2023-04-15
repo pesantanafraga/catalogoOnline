@@ -6,6 +6,7 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Neidinha Bolos - Bolos</title>
+    <link rel="icon" type="image/png" href="../images/quemsomos.png"/>
     <link href="../css/reset.css" rel="stylesheet" />
     <link href="../css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -29,7 +30,7 @@
 
     <main>
         <div class="header-main">
-        <h1 class="titulo">Neidinha Bolos - Catálogo Bolos</h1>
+        <h1 class="titulo">Neidinha Bolos - Catálogo Bolos</h1> <br />
         <div class="div-buscar">
             <input type="text"  value="" id="inputDeBusca"/>
             <a href="#" class="botao-buscar"><i class="fa-solid fa-magnifying-glass"></i></a>
@@ -65,7 +66,7 @@
                     </ul>
                 </div>
                 <div class="rodape-desenvolvedores">
-                    <h3><i class="fa-solid fa-code"></i>Desenvolvedor</h3>
+                    <h3>Desenvolvido por</h3>
                     <br />
                     <ul>
                         <li>&reg;SmartSolutions</li>

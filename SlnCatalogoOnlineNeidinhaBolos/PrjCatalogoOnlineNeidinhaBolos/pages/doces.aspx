@@ -6,6 +6,7 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Neidinha Bolos - Doces</title>
+    <link rel="icon" type="image/png" href="../images/quemsomos.png"/>
     <link href="../css/reset.css" rel="stylesheet" />
     <link href="../css/style.css" rel="stylesheet" />
 </head>
@@ -59,7 +60,7 @@
                     </ul>
                 </div>
                 <div class="rodape-desenvolvedores">
-                    <h3><i class="fa-solid fa-code"></i> Desenvolvedor</h3>  <br />
+                    <h3>Desenvolvido por</h3> <br />
                     <ul>
                         <li>&reg;SmartSolutions</li>
                     </ul>

@@ -5,10 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Neidinha Bolos - Início</title>
+    <link rel="icon" type="image/png" href="images/quemsomos.png"/>
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/inicio.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Neidinha Bolos - Início</title>
 </head>
 <body>
     <header id="cabecalho">
@@ -98,7 +99,7 @@
                     </ul>
                 </div>
                 <div class="rodape-desenvolvedores">
-                    <h3><i class="fa-solid fa-code"></i>Desenvolvedor</h3>
+                    <h3>Desenvolvido por</h3>
                     <br />
                     <ul>
                         <li>&reg;SmartSolutions</li>

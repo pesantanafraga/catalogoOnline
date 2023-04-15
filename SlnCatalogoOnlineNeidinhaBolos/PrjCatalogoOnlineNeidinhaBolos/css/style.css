@@ -17,12 +17,7 @@ a {
     text-decoration: none;
 }
 
-h1 {
-    color: #4b2f29;
-    text-align: center;
-    font-size: x-large;
-    margin: 5%;
-}
+
 
 hr {
     color: #F3F3F5;
@@ -84,10 +79,33 @@ main {
     background-repeat: no-repeat;
     margin-bottom: -7%;
 }
-
-    main h1 {
-        margin: 0 1px;
+    main h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: xx-large;
+        color: white;
     }
+
+.titulo {
+    text-align: center;
+    font-size: x-large;
+    margin: 1%;
+}
+
+#saidaProdutos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+
 
 @media screen and (max-width: 720px) {
     /*-------------- MENU HAMBURGUER --------------*/
@@ -214,6 +232,7 @@ main {
 .header-main {
     display: flex;
     flex-direction: column;
+    line-height: 1.5;
     justify-content: center;
     align-items: center;
 }
@@ -228,13 +247,21 @@ main {
     padding: 5vh 0;
 }
 
-    main h1 {
-        color: white;
-    }
-
     main p {
         margin: 5%;
     }
+
+    main h2 {
+        font-size: x-large;
+    }
+
+.titulo {
+    color: white;
+}
+
+#saidaProdutos {
+    font-size: x-large;
+}
 
 /*-------------- CORPO-CARDS --------------*/
 
@@ -261,6 +288,7 @@ main {
 
     .card-container img {
         width: 100%;
+        height: 20vh;
         margin-top: -5vh;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -383,7 +411,7 @@ body .rodape-container {
     }
 
     .div-buscar {
-        margin-left: -3%;
+        margin-left: 3%;
     }
     /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
     #formCardBolos {
@@ -447,7 +475,7 @@ body .rodape-container {
     }
 
     .div-buscar {
-        margin-left: -3%;
+        margin-left: 3%;
     }
     /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
     #formCardBolos {
@@ -511,7 +539,7 @@ body .rodape-container {
     }
 
     .div-buscar {
-        margin-left: -3%;
+        margin-left: 3%;
     }
     /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
     #formCardBolos {

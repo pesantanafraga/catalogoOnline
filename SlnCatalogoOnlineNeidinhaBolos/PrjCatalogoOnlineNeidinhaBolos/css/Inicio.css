@@ -398,6 +398,10 @@ body .rodape-container {
             width: 80%;
             margin-top: 3vh;
         }
+        .doces p {
+            border-left: 2px solid #6E381E;
+            border-right: none;
+        }
     /*-------------- SESSÃO CLIENTES SATISFEITOS --------------*/
     .clientes-satisfeitos-img {
         display: flex;
@@ -439,6 +443,10 @@ body .rodape-container {
         .doces img {
             width: 60%;
             margin-top: 3vh;
+        }
+        .doces p {
+            border-left: 2px solid #6E381E;
+            border-right: none;
         }
     /*-------------- SESSÃO CLIENTES SATISFEITOS --------------*/
     .clientes-satisfeitos-img {
