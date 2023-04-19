@@ -61,6 +61,43 @@
 /*---------------------------------------------------------------*/
 /*---------------------------------------------------------------*/
 /*---------------------------------------------------------------*/
+/*-------------- ESTILIZANDO O DESTAQUE --------------*/
+.divDestaque {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-bottom: 3px solid #6E381E;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+    .divDestaque .divCardDestaque {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .divDestaque img {
+        width: 50%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        position: center;
+    }
+    .divDestaque h2 {
+        display: block;
+        position: absolute;
+        font-size: xx-large;
+        overflow: hidden;
+    }
+    .divDestaque span {
+        font-size: larger;
+        font-weight: bold;
+        color: #6E381E;
+
+        border: 3px solid #6E381E;
+        border-radius: 5%;
+        box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+    }
+
+
 /*---------------------------------------------------------------*/
 /*---------------------------------------------------------------*/
 /*---------------------------------------------------------------*/
@@ -193,6 +230,7 @@ main {
     display: block;
     align-items: center;
     color: #6E381E;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
     .doces img {

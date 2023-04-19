@@ -29,10 +29,11 @@
 
     <main>
         <div class="bem-vindo">
-
+            <h1>Seja muito bem-vindo(a) à Neidinha Bolos!</h1>
+        </div>
         <div class="carrossel" >
             <%--DIV QUE TEM OUTRA DIV SENDO CRIADA NO C# E DENTRO DESSA DIV TEM AS TAG IMG--%>
-            <ul id="divDestaque" runat="server" class="slider">
+            <ul runat="server" class="slider">
 <%--            <li class="mySlides fade">
                     <img src="#" alt="Alternate Text" /></li>
                 <li class="mySlides fade">
@@ -40,10 +41,26 @@
                 <li class="mySlides fade">
                     <img src="#" alt="Alternate Text" /></li>--%>
             </ul>
-                    <h1>Seja muito bem-vindo(a) à Neidinha Bolos!</h1>
+                    
         </div>
         <%--   //fim carrousel--%>
             <%--            <img class="fundo" src="images/doces-gif.gif" alt="Um Gif de pequena duração mostrando como a Neidinha faz os doces" />--%>
+           
+            <div class="divDestaque">
+                <div class="divCardDestaque"> <img src="images/produto.jpg" alt="" />
+                    <h2>Bolo de Brigadeiro</h2>
+                    <span>R$ 80,00</span>
+                </div>
+                <div class="divCardDestaque"> <img src="images/produto.jpg" alt="" />
+                    <h2>Bolo de Bolo</h2>
+                    <span>R$ 90,00</span>
+                </div>
+                <div class="divCardDestaque"> <img src="images/produto.jpg" alt="" />
+                    <h2>Bolo de Cenoura</h2>
+                    <span>R$ 100,00</span>
+                </div>
+            </div>
+            
             <div class="bolos-escritura">
             </div>
         </div>
@@ -64,7 +81,7 @@
                 <p>Delicioso bolo de chocolate, Delicioso bolo de chocolate, Delicioso bolo de chocolate.</p>
                 <span>R$ 69,99</span>
                     <a href="pages/doces.aspx">Veja nossos doces: <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-            <br />
+            <br /> <br />
             </div>
         </div>
         <div class="clientes-satisfeitos">

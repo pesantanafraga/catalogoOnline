@@ -88,6 +88,10 @@ main {
         font-size: xx-large;
         color: white;
     }
+.card-container img {
+    width: 100%;
+    max-width: 285px;
+}
 
 .titulo {
     text-align: center;
@@ -275,7 +279,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 40%;
-    height: 400px;
+    height: 500px;
     margin-left: 30%;
     margin-top: 10%;
     justify-content: space-around;
@@ -284,11 +288,11 @@ main {
     border-bottom: 3px solid #6E381E;
     border-radius: 10px;
     box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+
 }
 
     .card-container img {
         width: 100%;
-        height: 20vh;
         margin-top: -5vh;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -299,6 +303,7 @@ main {
         display: block;
         position: absolute;
         font-size: xx-large;
+        overflow: hidden;
     }
 
     .card-container h3 {
@@ -428,7 +433,6 @@ body .rodape-container {
 
         .card-container img {
             width: 100%;
-            margin-top: -5vh;
         }
 
         .card-container h3 {
@@ -576,7 +580,7 @@ body .rodape-container {
 }
 /*-------------- MEDIA QUERIES MONITOR MEDIO --------------*/
 
-@media screen and (min-width: 1400px) and (max-width: 1980px) {
+@media screen and (min-width: 1400px) and (max-width: 1650px) {
     /*-------------- MENU-HEADER --------------*/
     .logotipo {
         width: 10%;
@@ -623,7 +627,73 @@ body .rodape-container {
     /*-------------- CORPO-CARDS --------------*/
     main img {
         width: 100%;
-        height: 50%;
+    }
+
+    .card-container {
+        width: 80%;
+        height: 450px;
+        margin: -5% 0;
+    }
+    /*-------------- FOOTER-RODAPE --------------*/
+    .rodape-container-atributos {
+        padding: 2%;
+    }
+
+        .rodape-container-atributos h3 {
+            font-size: large;
+        }
+
+    .rodape-contatos ul li, .rodape-contatos ul li, .rodape-endereco ul li {
+        font-size: medium;
+    }
+}
+@media screen and (min-width: 1650px) and (max-width: 1980px) {
+    /*-------------- MENU-HEADER --------------*/
+    .logotipo {
+        width: 10%;
+        margin-left: 10%;
+    }
+
+    #menu a {
+        padding: 2rem 0;
+        margin: 0 5rem;
+        margin-left: 5%;
+        font-size: large;
+    }
+    /*-------------- CAIXA DE BUSCAR --------------*/
+    #inputDeBusca {
+        width: 0px;
+    }
+
+    .div-buscar:hover > #inputDeBusca {
+        width: 240px;
+        padding: 0 6px;
+    }
+
+    .div-buscar:hover > .botao-buscar {
+        background: #6e381e;
+        color: #e5dbd0;
+        padding: 2%;
+        margin: -2%;
+    }
+    /*-------------- CORPO MAIN --------------*/
+    .header-main {
+        flex-direction: row;
+    }
+
+    .div-buscar {
+        margin-left: 1%;
+    }
+
+    /*    --------------MUDANDO DE POSIÇÃO OS CARDS--------------*/
+    #formCardBolos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 5%;
+    }
+    /*-------------- CORPO-CARDS --------------*/
+    main img {
+        width: 100%;
     }
 
     .card-container {
