@@ -1,12 +1,26 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans', sans-serif;
+}
 
+    body p {
+        padding-left: 3%;
+    }
+
+a {
+    text-decoration: none;
+    font-size: small;
+}
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 /*-------------- TAGS-HTML --------------*/
 /*-------------- SESSÃO BEM VINDO --------------*/
 .bem-vindo h1 {
     position: absolute;
-    padding: 3% 10% 3% 10%;
-    margin: -10% 5% 0 5%;
-    font-size:x-large;
+    font-size: x-large;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color: #6E381E;
@@ -62,61 +76,80 @@
 /*---------------------------------------------------------------*/
 /*---------------------------------------------------------------*/
 /*-------------- ESTILIZANDO O DESTAQUE --------------*/
+.destaqueContainer{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+    .destaqueContainer h1 {
+        text-align: center;
+        font-size: x-large;
+        padding: 0 0 0 0;
+        margin: 0 -8% 0 1%;
+        font-weight: bold;
+        transform: rotate(270deg);
+        border-bottom: 2px solid #6E381E;
+        font-family: 'Hammersmith One', sans-serif;
+        color: #6E381E;
+    }
+
 .divDestaque {
     display: flex;
-    justify-content: center;
     flex-direction: row;
-    border-bottom: 3px solid #6E381E;
-    border-radius: 10px;
-    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
 }
-    .divDestaque .divCardDestaque {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
     .divDestaque img {
-        width: 50%;
+        width: 100%;
+        max-height: 250px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         position: center;
     }
     .divDestaque h2 {
         display: block;
-        position: absolute;
-        font-size: xx-large;
+        font-size: large;
+        padding: 3%;
         overflow: hidden;
+        color: aliceblue;
     }
+
     .divDestaque span {
         font-size: larger;
         font-weight: bold;
-        color: #6E381E;
-
-        border: 3px solid #6E381E;
+        color: aliceblue;
+        border: 3px solid aliceblue;
         border-radius: 5%;
+        margin: 7%;
+        padding: 2%;
         box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
     }
 
-
-/*---------------------------------------------------------------*/
-/*---------------------------------------------------------------*/
-/*---------------------------------------------------------------*/
-/*---------------------------------------------------------------*/
-/*---------------------------------------------------------------*/
-body {
+.divCardDestaque {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgb(0,0,0,0.5);
+    border-radius: 15px;
+    background: #6E381E;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    font-family: 'Noto Sans', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid aliceblue;
 }
-
-    body p {
-        padding-left: 3%;
+    .divCardDestaque:hover {
+        border-bottom: 5px solid #de5a79;
     }
-
-a {
-    text-decoration: none;
-    font-size: small;
-}
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 
 /*-------------- MENU-HEADER --------------*/
 .logotipo {
@@ -153,6 +186,11 @@ a {
 #btn-mobile {
     display: none;
 }
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 /*-------------- MAIN --------------*/
 .fundo {
     width: 100%;
@@ -168,18 +206,15 @@ main {
     margin: -11px 0;
     background-repeat: no-repeat;
 }
-
-    main h1 {
-        text-align: center;
-        font-size: xx-large;
-        margin: 5%;
-    }
-
     main p {
         margin: 5%;
     }
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 /*-------------- SESSÃO BEM VINDO --------------*/
 
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 /*-------------- SESSÃO BOLOS --------------*/
 .bolos {
     display: block;
@@ -198,7 +233,10 @@ main {
 }
 
 .bolos h1 {
+    text-align: center;
+    font-size: xx-large;
     color: #e5dbd0;
+    margin: 5%;
 }
 
 .bolos p {
@@ -225,6 +263,8 @@ main {
     .bolos a:hover {
         color: #de5a79;
     }
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 /*-------------- SESSÃO DOCES --------------*/
 .doces {
     display: block;
@@ -243,7 +283,10 @@ main {
 }
 
     .doces h1 {
+        text-align: center;
+        font-size: xx-large;
         color: #6E381E;
+        margin: 5%;
     }
 
     .doces p {
@@ -269,6 +312,8 @@ main {
         .doces a:hover {
             color: #de5a79;
         }
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 /*-------------- SESSÃO CLIENTES SATISFEITOS --------------*/
 .clientes-satisfeitos {
     background-color: #6E381E;
@@ -276,15 +321,34 @@ main {
 }
 
     .clientes-satisfeitos h1 {
-        color: #e5dbd0;
-        margin: -15px 0 0 0;
-        padding: 30px 0 30px 0;
+        text-align: center;
+        font-size: xx-large;
+        padding: 2% 0 1% 0;
+        margin: 0 0 0 0;
+        font-weight: bold;
+        border-bottom: 2px solid #6E381E;
+        font-family: 'Hammersmith One', sans-serif;
+        color: aliceblue;
     }
 
 .clientes-satisfeitos-img img {
-    border-radius: 1vh;
-    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgb(0,0,0,0.5);
+    border-radius: 15px;
+    background: #6E381E;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid aliceblue;
 }
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 /*-------------- FOOTER-RODAPE --------------*/
 body .rodape {
     display: block;
@@ -342,8 +406,11 @@ body .rodape-container {
     background-color: #6E381E;
     color: white;
 }
-
-
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 @media screen and (max-width: 720px) {
 
     /*-------------- MENU HAMBURGUER --------------*/
@@ -414,14 +481,27 @@ body .rodape-container {
         }
     /*-------------- ESTILIZANDO O CORPO DA PAGINA INICIO --------------*/
     /*-------------- SESSÃO BEM VINDO --------------*/
-
+    /*-------------- ESTILIZANDO O DESTAQUE --------------*/
+    .destaqueContainer h1 {
+        font-size:xx-large;
+    }
+    .divDestaque {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     /*-------------- SESSÃO BOLOS --------------*/
     .bolos {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-
+        .bolos p {
+            text-align: center;
+            font-size: larger;
+            border: none;
+        }
         .bolos img {
             width: 80%;
             margin-top: 3vh;
@@ -437,27 +517,50 @@ body .rodape-container {
             margin-top: 3vh;
         }
         .doces p {
-            border-left: 2px solid #6E381E;
-            border-right: none;
+            text-align: center;
+            font-size:larger;
+            border: none;
         }
     /*-------------- SESSÃO CLIENTES SATISFEITOS --------------*/
+    .clientes-satisfeitos h1 {
+        font-size: large;
+    }   
     .clientes-satisfeitos-img {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-
         .clientes-satisfeitos-img img {
-            width: 30%;
-            height: 25vh;
-            margin: 1vh 0.9vh;
+            width: 169px;
+            height: auto;
+            max-width: 169px;
+            max-height: 175px;
         }
 }
 /*-------------- MEDIA QUERIES MONITOR PEQUENO --------------*/
-
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 @media screen and (min-width: 720px) and (max-width: 1000px) {
+    /*-------------- ESTILIZANDO O DESTAQUE --------------*/
+    .destaqueContainer h1 {
+        font-size: x-large;
+    }
+    /*-------------- ESTILIZANDO O DESTAQUE --------------*/
+    .divCardDestaque {
+        width: 170px;
+        height: 270px;
+    }
+        .divDestaque h2 {
+            font-size: medium;
+        }
 
+        .divDestaque span {
+            font-size: medium;
+        }
     /*-------------- SESSÃO BOLOS --------------*/
     .bolos {
         display: flex;
@@ -465,7 +568,11 @@ body .rodape-container {
         justify-content: center;
         align-items: center;
     }
-
+        .bolos p {
+            text-align: center;
+            font-size: larger;
+            border: none;
+        }
         .bolos img {
             width: 60%;
             margin-top: 3vh;
@@ -477,7 +584,11 @@ body .rodape-container {
         justify-content: center;
         align-items: center;
     }
-
+        .doces p {
+            text-align: center;
+            font-size: larger;
+            border: none;
+        }
         .doces img {
             width: 60%;
             margin-top: 3vh;
@@ -487,21 +598,39 @@ body .rodape-container {
             border-right: none;
         }
     /*-------------- SESSÃO CLIENTES SATISFEITOS --------------*/
+    .clientes-satisfeitos h1 {
+        font-size: x-large;
+    }   
     .clientes-satisfeitos-img {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-
         .clientes-satisfeitos-img img {
-            width: 30%;
-            height: 30vh;
-            margin: 1vh 0.9vh;
+            width: 169px;
+            height: auto;
+            max-width: 169px;
+            max-height: 175px;
         }
 }
-
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
+    /*-------------- ESTILIZANDO O DESTAQUE --------------*/
+    .destaqueContainer h1 {
+        font-size: x-large;
+    }
+    .divCardDestaque {
+        width: 170px;
+        height: 270px;
+    }
+    .destaqueContainer h1 {
+        font-size: x-large;
+    }
     /*-------------- MENU-HEADER --------------*/
     .logotipo {
         width: 15%;
@@ -534,20 +663,27 @@ body .rodape-container {
             margin-top: 3vh;
         }
     /*-------------- SESSÃO CLIENTES SATISFEITOS --------------*/
+    .clientes-satisfeitos h1 {
+        font-size: x-large;
+    }   
     .clientes-satisfeitos-img {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-
         .clientes-satisfeitos-img img {
-            width: 30%;
-            height: 40vh;
-            margin: 1vh 0.9vh;
+            width: 269px;
+            height: auto;
+            max-width: 269px;
+            max-height: 275px;
         }
 }
-
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
     /*-------------- MENU-HEADER --------------*/
     .logotipo {
@@ -587,15 +723,19 @@ body .rodape-container {
         justify-content: center;
         align-items: center;
     }
-
         .clientes-satisfeitos-img img {
-            width: 30%;
-            height: 45vh;
-            margin: 1vh 0.9vh;
+            width: 269px;
+            height: auto;
+            max-width: 269px;
+            max-height: 275px;
         }
 }
 /*-------------- MEDIA QUERIES MONITOR MEDIO --------------*/
-
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 @media screen and (min-width: 1400px) and (max-width: 1980px) {
     /*-------------- MENU-HEADER --------------*/
     .logotipo {
@@ -644,11 +784,11 @@ body .rodape-container {
         justify-content: center;
         align-items: center;
     }
-
         .clientes-satisfeitos-img img {
-            width: 30%;
-            height: 50vh;
-            margin: 1vh 0.9vh;
+            width: 406px;
+            height: auto;
+            max-width: 406px;
+            max-height: 410px;
         }
     /*-------------- FOOTER-RODAPE --------------*/
     .rodape-container-atributos {

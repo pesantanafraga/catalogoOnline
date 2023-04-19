@@ -89,6 +89,7 @@
     <Content Include="css\reset.css" />
     <Content Include="css\style.css" />
     <Content Include="default.aspx" />
+    <Content Include="images\Banner Neidinha Bolos.png" />
     <Content Include="images\bolo-chocolate.jpg" />
     <Content Include="images\brigadeiro-beijinho.jpg" />
     <Content Include="images\cliente 1.jpg" />
@@ -102,8 +103,11 @@
     <Content Include="images\pao-de-mel.jpg" />
     <Content Include="images\produto.jpg" />
     <Content Include="images\quemsomos.png" />
+    <Content Include="images\teste1.jpg" />
+    <Content Include="images\teste2.png" />
     <Content Include="js\menu.js" />
     <Content Include="js\scripts.js" />
+    <Content Include="js\vanilla-tilt.js" />
     <Content Include="pages\bolos.aspx" />
     <Content Include="pages\doces.aspx" />
     <Content Include="pages\obrigado.html" />
