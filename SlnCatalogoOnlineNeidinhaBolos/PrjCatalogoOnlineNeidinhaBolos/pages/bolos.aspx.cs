@@ -42,22 +42,22 @@ namespace PrjCatalogoOnlineNeidinhaBolos.pages
         //    //string sql = "SELECT * FROM Produto WHERE tipo='BOLO'"; // troca pela procedure
         //    //SqlCommand command = new SqlCommand(sql, conexao);
         //    reader = cmd.ExecuteReader();
-        //    int contador = 0;   
-        //        while (reader.Read())
-        //        {
-        //            string nome = reader.GetString(2);
-        //            decimal preco = reader.GetDecimal(4);
-        //            string descricao = reader.GetString(3);
-        //            string caminhoImagem = "https://" + reader.GetString(7).Substring(30);
+        //    int contador = 0;
+        //    while (reader.Read())
+        //    {
+        //        string nome = reader.GetString(2);
+        //        decimal preco = reader.GetDecimal(4);
+        //        string descricao = reader.GetString(3);
+        //        string caminhoImagem = "https://" + reader.GetString(7).Substring(30);
 
-        //            html += "<div class='card-container'>";
-        //            html += "<img src='" + caminhoImagem + "' />";
-        //            html += "<h3>" + nome + "</h3>";
-        //            html += "<p>" + descricao + "</p>";
-        //            html += "<span>R$ " + preco.ToString("0.00") + "</span>";
-        //            html += "</div>";
+        //        html += "<div class='card-container'>";
+        //        html += "<img src='" + caminhoImagem + "' />";
+        //        html += "<h3>" + nome + "</h3>";
+        //        html += "<p>" + descricao + "</p>";
+        //        html += "<span>R$ " + preco.ToString("0.00") + "</span>";
+        //        html += "</div>";
         //        contador++;
-        //        }
+        //    }
         //    if (contador < 1)
         //    {
         //        html += "<h2>" + "Produto não encontrado!" + "</h2>";

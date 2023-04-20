@@ -145,39 +145,39 @@
             <%--            <span class="criadores">Desenvolvido por &reg;SmartSolutions</span>--%>
         </div>
     </footer>
-        <script>
-            let slideIndex = 1;
-            showSlides(slideIndex);
-
-            function plusSlides(n) {
-                showSlides(slideIndex += n);
-            }
-
-            function currentSlide(n) {
-                showSlides(slideIndex = n);
-            }
-
-            function showSlides(n) {
-                let i;
-                let slides = document.getElementsByClassName("mySlides");
-                let dots = document.getElementsByClassName("dot");
-                if (n > slides.length) { slideIndex = 1 }
-                if (n < 1) { slideIndex = slides.length }
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
-            }
-        </script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/6d057d1912.js" crossorigin="anonymous"></script>
     <script src="js/menu.js"></script>
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
     <script>VanillaTilt.init(document.querySelectorAll(".divCardDestaque"));</script>
+            <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    let dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                }
+            </script>
 
 
 
