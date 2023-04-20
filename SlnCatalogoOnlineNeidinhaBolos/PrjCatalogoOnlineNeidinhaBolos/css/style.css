@@ -60,6 +60,72 @@ hr {
     display: none;
 }
 /*-------------- CORPO MAIN --------------*/
+.formCardBolos {
+    padding: 5%;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 500px;
+    margin-left: 30%;
+    margin-top: 10%;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+    border-bottom: 4px solid #6E381E;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+    .card-container img {
+        width: 100%;
+        max-height: 250px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        position: center;
+    }
+
+    .card-container h1 {
+        display: block;
+        font-size: large;
+        padding: 3%;
+        overflow: hidden;
+        color: aliceblue;
+    }
+
+    .card-container h3 {
+        font-size: medium;
+        margin-top: -8vh;
+        padding: 2%;
+        background-color: #6E381E;
+        color: white;
+    }
+
+    .card-container p {
+        font-size: small;
+        text-align: left;
+        font-weight: bold;
+        padding-left: 2%;
+        border-left: 2px solid #6E381E;
+        color: #6E381E;
+    }
+
+    .card-container span {
+        font-size: larger;
+        font-weight: bold;
+        color: #6E381E;
+        margin: 0 6vh 4% 6vh;
+        padding: 3%;
+        border: 3px solid #6E381E;
+        border-radius: 5%;
+        box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+    }
+    .card-container:hover {
+        border-bottom: 5px solid #de5a79;
+    }
+
 #mensagem {
     display: none;
     position: absolute;
@@ -88,10 +154,6 @@ main {
         font-size: xx-large;
         color: white;
     }
-.card-container img {
-    width: 100%;
-    max-width: 285px;
-}
 
 .titulo {
     text-align: center;
@@ -271,68 +333,6 @@ main {
 
 /*ESTILIZANDO O CARD*/
 
-.formCardBolos {
-    padding: 5%;
-}
-
-.card-container {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    height: 500px;
-    margin-left: 30%;
-    margin-top: 10%;
-    justify-content: space-around;
-    text-align: center;
-    background-color: white;
-    border-bottom: 3px solid #6E381E;
-    border-radius: 10px;
-    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
-
-}
-
-    .card-container img {
-        width: 100%;
-        margin-top: -5vh;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        position: center;
-    }
-
-    .card-container h1 {
-        display: block;
-        position: absolute;
-        font-size: xx-large;
-        overflow: hidden;
-    }
-
-    .card-container h3 {
-        font-size: medium;
-        margin-top: -8vh;
-        padding: 2%;
-        background-color: #6E381E;
-        color: white;
-    }
-
-    .card-container p {
-        font-size: small;
-        text-align: left;
-        font-weight: bold;
-        padding-left: 2%;
-        border-left: 2px solid #6E381E;
-        color: #6E381E;
-    }
-
-    .card-container span {
-        font-size: larger;
-        font-weight: bold;
-        color: #6E381E;
-        margin: 0 6vh;
-        padding: 3%;
-        border: 3px solid #6E381E;
-        border-radius: 5%;
-        box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
-    }
 /*-------------- FOOTER-RODAPE --------------*/
 
 body .rodape {
@@ -437,7 +437,7 @@ body .rodape-container {
 
         .card-container h3 {
             font-size: medium;
-            margin-top: -7vh;
+            margin-top: -3vh;
             padding: 2%;
         }
 
@@ -496,12 +496,11 @@ body .rodape-container {
 
         .card-container img {
             width: 100%;
-            margin-top: -5vh;
         }
 
         .card-container h3 {
             font-size: medium;
-            margin-top: -6vh;
+            margin-top: -3vh;
             padding: 2%;
         }
 
@@ -549,6 +548,8 @@ body .rodape-container {
     #formCardBolos {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        gap:1%;
+        margin-top: 2%;
     }
     /*ESTILIZANDO O CARD*/
     .card-container {
@@ -622,18 +623,18 @@ body .rodape-container {
     #formCardBolos {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 5%;
-    }
-    /*-------------- CORPO-CARDS --------------*/
-    main img {
-        width: 100%;
+        gap:2%;
+        padding: 4%;
     }
 
     .card-container {
-        width: 80%;
+        width: 90%;
         height: 450px;
-        margin: -5% 0;
+        margin: 0 0;
     }
+        .card-container h3{
+            margin-top:-20%;
+        }
     /*-------------- FOOTER-RODAPE --------------*/
     .rodape-container-atributos {
         padding: 2%;
@@ -689,17 +690,14 @@ body .rodape-container {
     #formCardBolos {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 5%;
+        gap:3%;
+        padding: 2%;
     }
     /*-------------- CORPO-CARDS --------------*/
-    main img {
-        width: 100%;
-    }
-
     .card-container {
         width: 80%;
-        height: 450px;
-        margin: -5% 0;
+        height: 500px;
+        margin: 0 0;
     }
     /*-------------- FOOTER-RODAPE --------------*/
     .rodape-container-atributos {

@@ -6,7 +6,7 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Neidinha Bolos - Bolos</title>
-    <link rel="icon" type="image/png" href="../images/quemsomos.png"/>
+    <link rel="icon" type="image/png" href="../images/quemsomos.png" />
     <link href="../css/reset.css" rel="stylesheet" />
     <link href="../css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -30,15 +30,52 @@
 
     <main>
         <div class="header-main">
-        <h1 class="titulo">Neidinha Bolos - Catálogo Bolos</h1> <br />
-        <div class="div-buscar">
-            <input type="text"  value="" id="inputDeBusca"/>
-            <a href="#" class="botao-buscar"><i class="fa-solid fa-magnifying-glass"></i></a>
-        </div>
+            <h1 class="titulo">Neidinha Bolos - Catálogo Bolos</h1>
+            <br />
+            <div class="div-buscar">
+                <input type="text" value="" id="inputDeBusca" />
+                <a href="#" class="botao-buscar"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
         </div>
         <span id="mensagem"></span>
-        <div id="formCardBolos" runat="server"> <%--TUDO QUE VEM DO BANCO DE PRODUTOS, APARECE NESSE DIV--%>
-             
+        <div id="formCardBolos" runat="server">
+            <%--TUDO QUE VEM DO BANCO DE PRODUTOS, APARECE NESSE DIV--%>
+            <div class='card-container'>
+                <img src="../images/produto.jpg" alt="Imagem de um bolo de nutela" />
+                <h3>Bolo de Nutela</h3>
+                <p>Excelente Bolo, Excelente Bolo, Excelente Bolo, Excelente Bolo,</p>
+                <span>R$ 50,00</span> 
+            </div>
+            <div class='card-container'>
+                <img src="../images/produto.jpg" alt="Imagem de um bolo de nutela" />
+                <h3>Bolo de Nutela</h3>
+                <p>Excelente Bolo, Excelente Bolo, Excelente Bolo, Excelente Bolo,</p>
+                <span>R$ 50,00</span> 
+            </div>
+            <div class='card-container'>
+                <img src="../images/produto.jpg" alt="Imagem de um bolo de nutela" />
+                <h3>Bolo de Nutela</h3>
+                <p>Excelente Bolo, Excelente Bolo, Excelente Bolo, Excelente Bolo,</p>
+                <span>R$ 50,00</span> 
+            </div>
+            <div class='card-container'>
+                <img src="../images/produto.jpg" alt="Imagem de um bolo de nutela" />
+                <h3>Bolo de Nutela</h3>
+                <p>Excelente Bolo, Excelente Bolo, Excelente Bolo, Excelente Bolo,</p>
+                <span>R$ 50,00</span> 
+            </div>
+            <div class='card-container'>
+                <img src="../images/bolo-chocolate.jpg" alt="Imagem de um bolo de nutela" />
+                <h3>Bolo de Nutela</h3>
+                <p>Excelente Bolo, Excelente Bolo, Excelente Bolo, Excelente Bolo,</p>
+                <span>R$ 50,00</span> 
+            </div>
+            <div class='card-container'>
+                <img src="../images/bolo-chocolate.jpg" alt="Imagem de um bolo de nutela" />
+                <h3>Bolo de Nutela</h3>
+                <p>Excelente Bolo, Excelente Bolo, Excelente Bolo, Excelente Bolo,</p>
+                <span>R$ 50,00</span> 
+            </div>
         </div>
     </main>
     <hr />
@@ -81,28 +118,30 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-   <script>
-       setInterval(function () {
-          /* var valueInput = document.getElementById("inputDeBusca").value;*/
+    <script>
+        setInterval(function () {
+            /* var valueInput = document.getElementById("inputDeBusca").value;*/
 
-           var valueInput = "{buscaProduto:'" + $("#inputDeBusca").val() + "'}";
+            var valueInput = "{buscaProduto:'" + $("#inputDeBusca").val() + "'}";
 
-           $.ajax({
-               type: "POST",
-               url: "bolos.aspx/CarregarProdutos",
-               data: valueInput,
+            $.ajax({
+                type: "POST",
+                url: "bolos.aspx/CarregarProdutos",
+                data: valueInput,
 
-               contentType: "application/json; charset=utf-8",
-               dataType: "json",
-               success: function (response) {
-                   $("#formCardBolos").html(response.d);
-               },
-               error: function (xhr, ajaxOptions, thrownError) {
-                   console.log(xhr.responseText);
-               }
-           });
-       }, 1000);
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    $("#formCardBolos").html(response.d);
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.responseText);
+                }
+            });
+        }, 1000);
 
-   </script>
+    </script>
+    <script type="text/javascript" src="../js/vanilla-tilt.js"></script>
+    <script>VanillaTilt.init(document.querySelectorAll(".card-container"));</script>
 </body>
 </html>

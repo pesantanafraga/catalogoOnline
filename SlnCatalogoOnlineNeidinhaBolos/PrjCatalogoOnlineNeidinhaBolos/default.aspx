@@ -7,9 +7,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="icon" type="image/png" href="images/quemsomos.png" />
     <link href="css/reset.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
     <link href="css/inicio.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" >
     <title>Neidinha Bolos - Início</title>
 </head>
 <body>
@@ -110,7 +110,7 @@
                 <img src="images/cliente 2.jpg" alt="Cliente 2" />
                 <img src="images/cliente 3.png" alt="Cliente 3" />
             </div>
-        </div>
+        </div>  
     </main>
     <footer class="rodape">
         <div class="rodape-container">
@@ -145,78 +145,40 @@
             <%--            <span class="criadores">Desenvolvido por &reg;SmartSolutions</span>--%>
         </div>
     </footer>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+
     <script src="https://kit.fontawesome.com/6d057d1912.js" crossorigin="anonymous"></script>
     <script src="js/menu.js"></script>
-
-    <script>
-
-        //let slideIndex = 0;
-
-        //showSlides();
-
-        //function showSlides() {
-
-        //    let i;
-
-        //    let slides = document.getElementsByClassName("mySlides");
-
-        //    let dots = document.getElementsByClassName("dot");
-
-        //    for (i = 0; i < slides.length; i++) {
-
-        //        slides[i].style.display = "none";
-
-        //    }
-
-        //    slideIndex++;
-
-        //    if (slideIndex > slides.length) { slideIndex = 1 }
-
-        //    for (i = 0; i < dots.length; i++) {
-
-        //        dots[i].className = dots[i].className.replace(" active", "");
-
-        //    }
-
-        //    slides[slideIndex - 1].style.display = "flex";
-        //    slides[slideIndex - 1].style.width = "width= 80%";
-        //    dots[slideIndex - 1].className += " active";
-
-        //    setTimeout(showSlides, 2000);
-
-        //}
-
-    </script>
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
     <script>VanillaTilt.init(document.querySelectorAll(".divCardDestaque"));</script>
-    <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
 
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        }
-    </script>
 
 
 

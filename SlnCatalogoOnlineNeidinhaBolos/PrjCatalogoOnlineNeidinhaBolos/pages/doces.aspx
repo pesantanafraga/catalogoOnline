@@ -35,6 +35,42 @@
         </div>
         <span id="mensagem"></span>
         <div id="formCardBolos" runat="server"> <%--TUDO QUE VEM DO BANCO DE PRODUTOS, APARECE NESSE DIV--%>
+            <div class='card-container'>
+                <img src="../images/brigadeiro-beijinho.jpg" alt="Imagem de um bolo de nutela" />
+                <h3>Brigadeiros e Beijinhos</h3>
+                <p>Excelente Bolo, Excelente Bolo, Excelente Bolo, Excelente Bolo,</p>
+                <span>R$ 50,00</span> 
+            </div>
+            <div class='card-container'>
+                <img src="../images/pao-de-mel.jpg" alt="Imagem de um bolo de nutela" />
+                <h3>Pao de Mel</h3>
+                <p>Excelente Bolo, Excelente Bolo, Excelente Bolo, Excelente Bolo,</p>
+                <span>R$ 50,00</span> 
+            </div>
+            <div class='card-container'>
+                <img src="../images/produto.jpg" alt="Imagem de um bolo de nutela" />
+                <h3>Bolo de Nutela</h3>
+                <p>Excelente Bolo, Excelente Bolo, Excelente Bolo, Excelente Bolo,</p>
+                <span>R$ 50,00</span> 
+            </div>
+            <div class='card-container'>
+                <img src="../images/produto.jpg" alt="Imagem de um bolo de nutela" />
+                <h3>Bolo de Nutela</h3>
+                <p>Excelente Bolo, Excelente Bolo, Excelente Bolo, Excelente Bolo,</p>
+                <span>R$ 50,00</span> 
+            </div>
+            <div class='card-container'>
+                <img src="../images/bolo-chocolate.jpg" alt="Imagem de um bolo de nutela" />
+                <h3>Bolo de Nutela</h3>
+                <p>Excelente Bolo, Excelente Bolo, Excelente Bolo, Excelente Bolo,</p>
+                <span>R$ 50,00</span> 
+            </div>
+            <div class='card-container'>
+                <img src="../images/bolo-chocolate.jpg" alt="Imagem de um bolo de nutela" />
+                <h3>Bolo de Nutela</h3>
+                <p>Excelente Bolo, Excelente Bolo, Excelente Bolo, Excelente Bolo,</p>
+                <span>R$ 50,00</span> 
+            </div>
              
         </div>
     </main>
@@ -94,5 +130,8 @@
         }, 1000);
 
    </script>
+   <script type="text/javascript" src="../js/vanilla-tilt.js"></script>
+   <script>VanillaTilt.init(document.querySelectorAll(".card-container"));</script>
+
 </body>
 </html>
